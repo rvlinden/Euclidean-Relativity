@@ -1,0 +1,3169 @@
+From: <Opgeslagen met Windows Internet Explorer 8>
+Subject: Relativity/Quantum Mechanics
+Date: Fri, 3 Jun 2011 19:48:12 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CC2227.2BF72D70"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.6090
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://web.archive.org/web/20081222192216/http:/home.jam.rr.com/dicksfiles/flaw/Fatalfla.htm
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Relativity/Quantum Mechanics</TITLE>
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.19046"></HEAD>
+<BODY aLink=3D#ff0000 link=3D#0000ff bgColor=3D#c0c0c0 text=3D#000000 =
+vLink=3D#551a8b><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://staticweb.archive.org/js/disclaim-element.js"></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://staticweb.archive.org/js/graph-calc.js"></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://staticweb.archive.org/jflot/jquery.min.js"></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>=0A=
+//<![CDATA[=0A=
+var firstDate =3D 820454400000;=0A=
+var lastDate =3D 1325375999999;=0A=
+var wbPrefix =3D "http://web.archive.org/web/";=0A=
+var wbCurrentUrl =3D =
+"http://home.jam.rr.com/dicksfiles/flaw/Fatalfla.htm";=0A=
+=0A=
+var curYear =3D -1;=0A=
+var curMonth =3D -1;=0A=
+var yearCount =3D 16;=0A=
+var firstYear =3D 1996;=0A=
+var imgWidth=3D400;=0A=
+var yearImgWidth =3D 25;=0A=
+var monthImgWidth =3D 2;=0A=
+var trackerVal =3D "none";=0A=
+var displayDay =3D "22";=0A=
+var displayMonth =3D "dec";=0A=
+var displayYear =3D "2008";=0A=
+var prettyMonths =3D =
+["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]=
+;=0A=
+=0A=
+function showTrackers(val) {=0A=
+	if(val =3D=3D trackerVal) {=0A=
+		return;=0A=
+	}=0A=
+	if(val =3D=3D "inline") {=0A=
+		document.getElementById("displayYearEl").style.color =3D "#ec008c";=0A=
+		document.getElementById("displayMonthEl").style.color =3D "#ec008c";=0A=
+		document.getElementById("displayDayEl").style.color =3D "#ec008c";		=0A=
+	} else {=0A=
+		document.getElementById("displayYearEl").innerHTML =3D displayYear;=0A=
+		document.getElementById("displayYearEl").style.color =3D "#ff0";=0A=
+		document.getElementById("displayMonthEl").innerHTML =3D displayMonth;=0A=
+		document.getElementById("displayMonthEl").style.color =3D "#ff0";=0A=
+		document.getElementById("displayDayEl").innerHTML =3D displayDay;=0A=
+		document.getElementById("displayDayEl").style.color =3D "#ff0";=0A=
+	}=0A=
+   document.getElementById("wbMouseTrackYearImg").style.display =3D val;=0A=
+   document.getElementById("wbMouseTrackMonthImg").style.display =3D val;=0A=
+   trackerVal =3D val;=0A=
+}=0A=
+function getElementX2(obj) {=0A=
+	var thing =3D jQuery(obj);=0A=
+	if((thing =3D=3D undefined) =0A=
+			|| (typeof thing =3D=3D "undefined") =0A=
+			|| (typeof thing.offset =3D=3D "undefined")) {=0A=
+		return getElementX(obj);=0A=
+	}=0A=
+	return Math.round(thing.offset().left);=0A=
+}=0A=
+function trackMouseMove(event,element) {=0A=
+=0A=
+   var eventX =3D getEventX(event);=0A=
+   var elementX =3D getElementX2(element);=0A=
+   var xOff =3D eventX - elementX;=0A=
+	if(xOff < 0) {=0A=
+		xOff =3D 0;=0A=
+	} else if(xOff > imgWidth) {=0A=
+		xOff =3D imgWidth;=0A=
+	}=0A=
+   var monthOff =3D xOff % yearImgWidth;=0A=
+=0A=
+   var year =3D Math.floor(xOff / yearImgWidth);=0A=
+	var yearStart =3D year * yearImgWidth;=0A=
+   var monthOfYear =3D Math.floor(monthOff / monthImgWidth);=0A=
+   if(monthOfYear > 11) {=0A=
+       monthOfYear =3D 11;=0A=
+   }=0A=
+   // 1 extra border pixel at the left edge of the year:=0A=
+   var month =3D (year * 12) + monthOfYear;=0A=
+   var day =3D 1;=0A=
+	if(monthOff % 2 =3D=3D 1) {=0A=
+		day =3D 15;=0A=
+	}=0A=
+	var dateString =3D =0A=
+		zeroPad(year + firstYear) + =0A=
+		zeroPad(monthOfYear+1,2) +=0A=
+		zeroPad(day,2) + "000000";=0A=
+=0A=
+	var monthString =3D prettyMonths[monthOfYear];=0A=
+	document.getElementById("displayYearEl").innerHTML =3D year + 1996;=0A=
+	document.getElementById("displayMonthEl").innerHTML =3D monthString;=0A=
+	// looks too jarring when it changes..=0A=
+	//document.getElementById("displayDayEl").innerHTML =3D zeroPad(day,2);=0A=
+=0A=
+	var url =3D wbPrefix + dateString + '/' +  wbCurrentUrl;=0A=
+	document.getElementById('wm-graph-anchor').href =3D url;=0A=
+=0A=
+   //document.getElementById("wmtbURL").value=3D"evX("+eventX+") =
+elX("+elementX+") xO("+xOff+") y("+year+") m("+month+") =
+monthOff("+monthOff+") DS("+dateString+") Moy("+monthOfYear+") =
+ms("+monthString+")";=0A=
+   if(curYear !=3D year) {=0A=
+       var yrOff =3D year * yearImgWidth;=0A=
+       document.getElementById("wbMouseTrackYearImg").style.left =3D =
+yrOff + "px";=0A=
+       curYear =3D year;=0A=
+   }=0A=
+   if(curMonth !=3D month) {=0A=
+       var mtOff =3D year + (month * monthImgWidth) + 1;=0A=
+       document.getElementById("wbMouseTrackMonthImg").style.left =3D =
+mtOff + "px";=0A=
+       curMonth =3D month;=0A=
+   }=0A=
+}=0A=
+//]]>=0A=
+</SCRIPT>
+
+<STYLE type=3Dtext/css>BODY {
+	MIN-WIDTH: 800px !important; MARGIN-TOP: 0px !important; PADDING-TOP: =
+0px !important
+}
+#wm-ipp A:hover {
+	TEXT-DECORATION: underline !important
+}
+</STYLE>
+
+<DIV=20
+style=3D"Z-INDEX: 9000; POSITION: relative; MIN-WIDTH: 800px; =
+PADDING-BOTTOM: 0px; MIN-HEIGHT: 70px; PADDING-LEFT: 5px; PADDING-RIGHT: =
+5px; DISPLAY: none; PADDING-TOP: 0px"=20
+id=3Dwm-ipp>
+<DIV=20
+style=3D"BACKGROUND-IMAGE: =
+url(http://staticweb.archive.org/images/toolbar/wm_tb_bk_trns.png); =
+BORDER-BOTTOM: #000 5px solid; POSITION: fixed; MIN-WIDTH: 780px; =
+TEXT-ALIGN: center; BORDER-LEFT: #000 5px solid; PADDING-BOTTOM: 0px =
+!important; MARGIN: 0px; PADDING-LEFT: 0px !important; WIDTH: 97%; =
+PADDING-RIGHT: 0px !important; FONT-FAMILY: 'Lucida =
+Grande','Arial',sans-serif !important; FONT-SIZE: 11px !important; =
+BORDER-TOP: medium none; BORDER-RIGHT: #000 5px solid; PADDING-TOP: 0px =
+!important; -moz-box-shadow: 1px 1px 3px #333; -webkit-box-shadow: 1px =
+1px 3px #333; box-shadow: 1px 1px 3px #333"=20
+id=3Dwm-ipp-inside>
+<TABLE=20
+style=3D"PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: =
+100%; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; PADDING-TOP: 0px">
+  <TBODY>
+  <TR>
+    <TD=20
+    style=3D"MIN-WIDTH: 110px; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; VERTICAL-ALIGN: top; PADDING-TOP: 10px"><A=20
+      style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+BACKGROUND-COLOR: transparent; BORDER-TOP: medium none; BORDER-RIGHT: =
+medium none"=20
+      title=3D"Wayback Machine home page"=20
+      href=3D"http://wayback.archive.org/web/"><IMG border=3D0 =
+alt=3D"Wayback Machine"=20
+      =
+src=3D"http://staticweb.archive.org/images/toolbar/wayback-toolbar-logo.p=
+ng"=20
+      width=3D110 height=3D39></A> </TD>
+    <TD=20
+    style=3D"TEXT-ALIGN: center; PADDING-BOTTOM: 0px !important; =
+PADDING-LEFT: 0px !important; WIDTH: 100%; PADDING-RIGHT: 0px =
+!important; VERTICAL-ALIGN: top; PADDING-TOP: 0px !important">
+      <TABLE=20
+      style=3D"PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; =
+WIDTH: 570px; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; =
+PADDING-TOP: 0px">
+        <TBODY>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 3px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; PADDING-TOP: 3px"=20
+          colSpan=3D2>
+            <FORM=20
+            style=3D"PADDING-BOTTOM: 0px !important; MARGIN: 0px; =
+PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; =
+PADDING-TOP: 0px !important"=20
+            id=3Dwmtb method=3Dget name=3Dwmtb=20
+            action=3Dhttp://wayback.archive.org/web/form-submit.jsp=20
+            target=3D_top><INPUT=20
+            style=3D"WIDTH: 400px; FONT-FAMILY: 'Lucida =
+Grande','Arial',sans-serif; FONT-SIZE: 11px"=20
+            id=3DwmtbURL =
+onfocus=3Djavascript:this.focus();this.select();=20
+            value=3Dhttp://home.jam.rr.com/dicksfiles/flaw/Fatalfla.htm=20
+            name=3Durl><INPUT value=3Dreplay type=3Dhidden =
+name=3Dtype><INPUT=20
+            value=3D20081222192216 type=3Dhidden name=3Ddate><INPUT =
+style=3D"FONT-FAMILY: 'Lucida Grande','Arial',sans-serif; MARGIN-LEFT: =
+5px; FONT-SIZE: 11px" value=3DGo type=3Dsubmit><SPAN=20
+            style=3D"DISPLAY: block" =
+id=3Dwm_tb_options></SPAN></FORM></TD>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px =
+!important; PADDING-RIGHT: 0px !important; VERTICAL-ALIGN: bottom; =
+PADDING-TOP: 5px !important"=20
+          rowSpan=3D2>
+            <TABLE=20
+            style=3D"WIDTH: 110px; BORDER-COLLAPSE: collapse; =
+FONT-FAMILY: 'Helvetica','Lucida Grande','Arial',sans-serif; COLOR: =
+#99a">
+              <TBODY><!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+              <TR=20
+style=3D"WIDTH: 110px; HEIGHT: 16px; FONT-SIZE: 10px !important">
+                <TD=20
+                style=3D"TEXT-ALIGN: right; TEXT-TRANSFORM: uppercase; =
+PADDING-RIGHT: 9px; WHITE-SPACE: nowrap; FONT-SIZE: 11px !important; =
+OVERFLOW: visible; FONT-WEIGHT: bold"=20
+                noWrap><A=20
+                  style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: =
+medium none; BACKGROUND-COLOR: transparent; COLOR: #33f; BORDER-TOP: =
+medium none; FONT-WEIGHT: bold; BORDER-RIGHT: medium none; =
+TEXT-DECORATION: none"=20
+                  title=3D"9 mei 2008"=20
+                  =
+href=3D"http://web.archive.org/web/20080509095347/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm"><STRONG>MEI</STRONG></A>=20
+                </TD>
+                <TD=20
+                style=3D"TEXT-ALIGN: center; TEXT-TRANSFORM: uppercase; =
+WIDTH: 34px; BACKGROUND: #000; HEIGHT: 15px; COLOR: #ff0; FONT-SIZE: =
+11px !important; FONT-WEIGHT: bold; PADDING-TOP: 1px"=20
+                id=3DdisplayMonthEl=20
+                  title=3D"You are here: 19:22:16 dec 22, 2008">DEC</TD>
+                <TD=20
+                style=3D"TEXT-TRANSFORM: uppercase; PADDING-LEFT: 9px; =
+WHITE-SPACE: nowrap; FONT-SIZE: 11px !important; OVERFLOW: visible; =
+FONT-WEIGHT: bold"=20
+                noWrap>jan </TD></TR><!-- NEXT/PREV CAPTURE NAV AND DAY =
+OF MONTH INDICATOR -->
+              <TR>
+                <TD=20
+                style=3D"TEXT-ALIGN: right !important; PADDING-RIGHT: =
+9px; WHITE-SPACE: nowrap; VERTICAL-ALIGN: middle !important; OVERFLOW: =
+visible"=20
+                noWrap><A=20
+                  style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: =
+medium none; BACKGROUND-COLOR: transparent; BORDER-TOP: medium none; =
+BORDER-RIGHT: medium none"=20
+                  title=3D"9:53:47 mei 9, 2008"=20
+                  =
+href=3D"http://web.archive.org/web/20080509095347/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm"><IMG=20
+                  border=3D0 alt=3D"Previous capture"=20
+                  =
+src=3D"http://staticweb.archive.org/images/toolbar/wm_tb_prv_on.png"=20
+                  width=3D14 height=3D16></A> </TD>
+                <TD=20
+                style=3D"TEXT-ALIGN: center; PADDING-BOTTOM: 0px; =
+PADDING-LEFT: 0px; WIDTH: 34px; PADDING-RIGHT: 0px; BACKGROUND: #000; =
+HEIGHT: 24px; COLOR: #ff0; FONT-SIZE: 24px; FONT-WEIGHT: bold; =
+PADDING-TOP: 2px"=20
+                id=3DdisplayDayEl=20
+                title=3D"You are here: 19:22:16 dec 22, 2008">22</TD>
+                <TD=20
+                style=3D"TEXT-ALIGN: left !important; PADDING-LEFT: 9px; =
+WHITE-SPACE: nowrap; VERTICAL-ALIGN: middle !important; OVERFLOW: =
+visible"=20
+                noWrap><IMG border=3D0 alt=3D"Next capture"=20
+                  =
+src=3D"http://staticweb.archive.org/images/toolbar/wm_tb_nxt_off.png"=20
+                  width=3D14 height=3D16> </TD></TR><!-- NEXT/PREV YEAR =
+NAV AND YEAR INDICATOR -->
+              <TR=20
+                style=3D"WIDTH: 110px; HEIGHT: 13px; FONT-SIZE: 9px =
+!important"><TD=20
+                style=3D"TEXT-ALIGN: right; PADDING-RIGHT: 9px; =
+WHITE-SPACE: nowrap; FONT-SIZE: 11px !important; OVERFLOW: visible; =
+FONT-WEIGHT: bold"=20
+                noWrap><A=20
+                  style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: =
+medium none; BACKGROUND-COLOR: transparent; COLOR: #33f; BORDER-TOP: =
+medium none; FONT-WEIGHT: bold; BORDER-RIGHT: medium none; =
+TEXT-DECORATION: none"=20
+                  title=3D"8 aug 2007"=20
+                  =
+href=3D"http://web.archive.org/web/20070808064234/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm"><STRONG>2007</STRONG></A>=20
+                </TD>
+                <TD=20
+                style=3D"TEXT-ALIGN: center; WIDTH: 34px; BACKGROUND: =
+#000; HEIGHT: 13px; COLOR: #ff0; FONT-SIZE: 11px !important; =
+FONT-WEIGHT: bold; PADDING-TOP: 1px"=20
+                id=3DdisplayYearEl=20
+                  title=3D"You are here: 19:22:16 dec 22, =
+2008">2008</TD>
+                <TD=20
+                style=3D"PADDING-LEFT: 9px; WHITE-SPACE: nowrap; =
+FONT-SIZE: 11px !important; OVERFLOW: visible; FONT-WEIGHT: bold"=20
+                noWrap>2009 </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px =
+!important; PADDING-RIGHT: 0px !important; VERTICAL-ALIGN: middle; =
+PADDING-TOP: 0px !important"><A=20
+            style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium =
+none; BACKGROUND-COLOR: transparent; COLOR: #33f; FONT-SIZE: 11px; =
+BORDER-TOP: medium none; FONT-WEIGHT: bold; BORDER-RIGHT: medium none"=20
+            title=3D"See a list of every capture for this URL"=20
+            =
+href=3D"http://wayback.archive.org/web/20081222192216*/http://home.jam.rr=
+.com/dicksfiles/flaw/Fatalfla.htm"><STRONG>31=20
+            captures</STRONG></A>=20
+            <DIV=20
+            style=3D"PADDING-BOTTOM: 0px !important; MARGIN: 0px; =
+PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; =
+WHITE-SPACE: nowrap; COLOR: #666; FONT-SIZE: 9px; PADDING-TOP: 2px =
+!important"=20
+            title=3D"Timespan for captures of this URL">1 mei 03 - 22 =
+dec=20
+          08</DIV></TD>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px =
+!important; PADDING-RIGHT: 0px !important; PADDING-TOP: 0px =
+!important"><A=20
+            style=3D"POSITION: relative; WIDTH: 400px; WHITE-SPACE: =
+nowrap; HEIGHT: 27px"=20
+            id=3Dwm-graph-anchor=20
+            =
+href=3D"http://web.archive.org/web/20081222192216/http:/home.jam.rr.com/d=
+icksfiles/flaw/">
+            <DIV=20
+            style=3D"POSITION: relative; BACKGROUND-COLOR: #fff; WIDTH: =
+400px; WHITE-SPACE: nowrap; HEIGHT: 27px; CURSOR: pointer; BORDER-RIGHT: =
+#ccc 1px solid"=20
+            id=3Dwm-ipp-sparkline title=3D"Explore captures for this =
+URL"><IMG=20
+            style=3D"Z-INDEX: 9012; POSITION: absolute; TOP: 0px; LEFT: =
+0px"=20
+            id=3DsparklineImgId onmouseover=3D"showTrackers('inline');"=20
+            onmousemove=3DtrackMouseMove(event,this)=20
+            onmouseout=3D"showTrackers('none');" border=3D0 =
+alt=3Dsparklines=20
+            =
+src=3D"http://wayback.archive.org/jsp/graph.jsp?graphdata=3D400_27_1996:-=
+1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:00000000=
+0000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:=
+-1:000010001000_2004:-1:010100010001_2005:-1:011110001201_2006:-1:2100010=
+00110_2007:-1:100014210000_2008:11:000010000001_2009:-1:000000000000_2010=
+:-1:000000000000_2011:-1:000000000000"=20
+            width=3D400 height=3D27></IMG> <IMG=20
+            style=3D"Z-INDEX: 9010; POSITION: absolute; DISPLAY: none"=20
+            id=3DwbMouseTrackYearImg border=3D0=20
+            =
+src=3D"http://staticweb.archive.org/images/toolbar/transp-yellow-pixel.pn=
+g"=20
+            width=3D25 height=3D27></IMG> <IMG=20
+            style=3D"Z-INDEX: 9011; POSITION: absolute; DISPLAY: none"=20
+            id=3DwbMouseTrackMonthImg border=3D0=20
+            =
+src=3D"http://staticweb.archive.org/images/toolbar/transp-red-pixel.png" =
+
+            width=3D2 height=3D27></IMG> =
+</DIV></A></TD></TR></TBODY></TABLE></TD>
+    <TD=20
+    style=3D"TEXT-ALIGN: right; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; =
+WIDTH: 65px; PADDING-RIGHT: 5px; FONT-SIZE: 11px !important; =
+PADDING-TOP: 5px"><A=20
+      style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+PADDING-RIGHT: 18px; DISPLAY: block; FONT-FAMILY: 'Lucida =
+Grande','Arial',sans-serif; MARGIN-BOTTOM: 23px; BACKGROUND: =
+url(http://staticweb.archive.org/images/toolbar/wm_tb_close.png) =
+no-repeat 100% 0px; COLOR: #33f; BORDER-TOP: medium none; BORDER-RIGHT: =
+medium none"=20
+      title=3D"Close the toolbar"=20
+      =
+onclick=3D"document.getElementById('wm-ipp').style.display=3D'none';"=20
+      href=3D"javascript:;">Close</A> <A=20
+      style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+PADDING-RIGHT: 18px; DISPLAY: block; FONT-FAMILY: 'Lucida =
+Grande','Arial',sans-serif; BACKGROUND: =
+url(http://staticweb.archive.org/images/toolbar/wm_tb_help.png) =
+no-repeat 100% 0px; COLOR: #33f; BORDER-TOP: medium none; BORDER-RIGHT: =
+medium none"=20
+      title=3D"Get some help using the Wayback Machine"=20
+      href=3D"http://faq.web.archive.org/">Help</A>=20
+</TD></TR></TBODY></TABLE></DIV></DIV>
+<SCRIPT type=3Dtext/javascript>=0A=
+ var wmDisclaimBanner =3D document.getElementById("wm-ipp");=0A=
+ if(wmDisclaimBanner !=3D null) {=0A=
+   disclaimElement(wmDisclaimBanner);=0A=
+ }=0A=
+</SCRIPT>
+<!-- END WAYBACK TOOLBAR INSERT -->
+<P><STRONG><FONT size=3D-1>
+<CENTER></CENTER></FONT></STRONG>
+<P></P><STRONG><FONT size=3D+2>
+<P>Resolution of the Relativity/Quantum Mechanics Conflict </FONT></P>
+<P><FONT size=3D-1><I>By <A =
+href=3D"mailto:doctordick01@yahoo.com">Richard D.=20
+Stafford, Ph.D.</A> Copyright =C2=A9 2002, All rights reserved. =
+</I></FONT></P>
+<BLOCKQUOTE>
+  <BLOCKQUOTE>
+    <P><FONT size=3D-1>
+    <P>"There is a deep seated fundamental conflict between Quantum =
+theory and=20
+    Einstein's theory of relativity. Subtle difficulties become =
+insurmountable=20
+    problems when gravity is added<A=20
+    =
+href=3D"http://web.archive.org/web/20081222192216/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm#N_1_"><SUP>1=20
+    </SUP></A>."</P></FONT></STRONG></BLOCKQUOTE></BLOCKQUOTE>
+<P>I believe there exists a fundamental error in the common perception =
+of=20
+reality: I hold that this error is the basis of the conflict decried =
+above. In a=20
+nutshell, the error concerns our confused concept of time. Every student =
+has=20
+been told countless times that Newton=E2=80=99s error (which stood for =
+almost 300 years)=20
+was that he assumed everyone=E2=80=99s clock could be set to read the =
+same. In the same=20
+vein, I hold that Einstein=E2=80=99s error (an error which has plagued =
+science for=20
+almost 100 years already) was that he assumed clocks measured time. It =
+is my=20
+position that this perception so blocked his view (as even today it =
+blocks the=20
+view of the whole scientific community) that he made a mistake in his=20
+fundamental view of the problem one would not expect of a high school =
+science=20
+student much less a trained scientist. </P>
+<P>If you are going to take the position that to criticize Einstein or =
+his work=20
+is beyond the right of a mere mortal, read no further as this message is =
+not for=20
+you; however, if you have the mental capability to temporarily suspend =
+judgment=20
+and are willing to look at a possible alternative, please read on. If =
+you=20
+closely examine my arguments, you may be surprised by what you find. It =
+is my=20
+claim that the most important problem in modern physics is a subtly =
+confused=20
+concept of time. Please note that I am making no argument here against =
+any of=20
+the experimental results which are used to defend Einstein; the argument =
+is=20
+wholly with the interpretation of those results. </P><STRONG><FONT =
+size=3D+1>
+<P>The Confusion Concerning Time </FONT></STRONG></P>
+<P>If I think the concept of time is confused, it behooves me to clarify =
+exactly=20
+where I believe the problem resides. </P>
+<P>To begin with, the concept of time has been around long before the =
+invention=20
+of clocks and the concept never required the existence of accurate =
+clocks. The=20
+most fundamental characteristic of time is that it divides our universe =
+(the=20
+reality within which all experiments conceivable are performed) into two =
+
+distinctly different realms: the past and the future! It is an =
+experimental fact=20
+supported by observations extending back to before written history that =
+nothing=20
+can be done to change the past and that we do not know exactly what the =
+future=20
+will turn out to be. The power and dependability of this single idea =
+(that the=20
+past and the future are fundamentally different realms) is the central =
+reason=20
+for the very existence of the concept of time. To forget this fact is to =
+
+overlook a very important phenomena fundamental to our very existence. =
+</P>
+<P>As I hold that the current concept of time is confused, it is =
+necessary that=20
+my concept of time must be at least slightly askew of the common =
+interpretation.=20
+Please afford me the small latitude I ask to present my slightly shifted =
+concept=20
+of time. In my argument, I would like to view time from the perspective =
+of the=20
+ancient past and bring that concept forward to what I think would have =
+resulted=20
+if our ancestors had understood everything we know today. </P>
+<P>In the beginning, the concept of time was really a subtle reference =
+to what=20
+was known. To refer to a specific moment in the past (usually by naming =
+a=20
+significant event) was to provide a reference to the division between =
+past and=20
+future from the perspective of that event. Time was essentially =
+delineated by a=20
+succession of events. Even prior to the invention of writing, I am sure =
+it was=20
+evident to our ancestors that the motion of the sun (among other =
+repetitive=20
+events) provided a convenient commonly understood event as a easy =
+reference. It=20
+is my position that this is the real source of the idea behind clocks, =
+devices=20
+which could track and label the present. That is, to provide specific =
+references=20
+to the collection of interesting boundaries between the associated =
+states of=20
+past and the future. What should always be remembered here, is that =
+these=20
+references must correspond to a consistent set within our personal =
+mental image=20
+of reality. </P>
+<P>Until Newton came along, I think the concept of time was in good =
+alignment=20
+with the needs of mankind; however, I think Newton's great success was =
+the=20
+source of a perspective which was fundamentally erroneous. In essence, =
+Newton=20
+showed that the future mechanical motion of many objects could be =
+predicted from=20
+the past motion via some very simple mathematical relations, time (as a=20
+numerical parameter) became a very important scientific concept. This, =
+in=20
+itself, was not at all in violation of the concept of time which I have =
+laid out=20
+here. </P>
+<P>If clocks are seen as mechanical devices designed to provide a =
+convenient=20
+laboratory collection of reproducible repetitive events, then there is =
+no real=20
+conflict with the earlier concept. The clock is then nothing more than =
+the=20
+source of a set of references to the division between past and future =
+from the=20
+perspective of the events being examined in the laboratory. Newton's =
+error was=20
+the presumption that these laboratory clocks provided a valid universal=20
+collection of well understood events: i.e. that everybody's clock could =
+be set=20
+to agree. What should be remembered is that this issue, though very =
+real, in no=20
+way reduces the value of the clock; it merely removes the clock from =
+fulfilling=20
+the original concept of time. </P>
+<P>The power of Newton's achievements, the ability of his ideas to =
+analytically=20
+predict the behavior of many events, insured the development of clocks =
+of ever=20
+finer precision. In fact, this precision became so important that the =
+scientific=20
+society actually moved to the position that "clocks define time"; =
+totally losing=20
+sight of the fact that the central issue of time was the division of the =
+past=20
+(that which cannot be changed) from the future (that which science is =
+trying to=20
+predict). We had become so sure time could be measured and numerically =
+labeled=20
+that we forgot the underlying purpose of the concept: i.e., to separate =
+reality=20
+into the two distinctly different realms, the past and the future. </P>
+<P>Why did such a change raise no signs of difficulty? The issue, very =
+clearly,=20
+is misdirection of attention! Only magicians understand how easily =
+people can be=20
+misled. Misdirection of attention is the very soul of magic; with it =
+magicians=20
+can hide the truth for decades even when we know they are trying to fool =
+us. In=20
+science, attention is focused on new ideas, not on the old concepts =
+which are=20
+presumed to be clear and consistent; how else could Newton's error have =
+stood=20
+for three hundred years? </P><STRONG><FONT size=3D+1>
+<P>Consequence of Confusion </FONT></STRONG></P>
+<P>Einstein resolved the difficulty brought forth by Maxwell's equations =
+and the=20
+clear requirement of the Lorentz transformations by hypothesizing an =
+alternate=20
+geometry for the universe. His geometric solution to the problem has now =
+been=20
+accepted as incontrovertible. If I hold that Einstein made an error, I =
+need to=20
+display exactly where I think the error was made. Let us return for a =
+moment to=20
+the metric used in Einstein=E2=80=99s space-time, remembering that he =
+used that metric=20
+to define the geometry of the universe<A=20
+href=3D"http://web.archive.org/web/20081222192216/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm#N_2_"><SUP>2</SUP></A>:=20
+</P>
+<P><IMG=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/Flaw001.gif"=20
+width=3D600 height=3D40> </P>
+<P>Under normal circumstances, a person begins with a geometry designed =
+to some=20
+constraints and then deduces the metric after the fact for the purpose =
+of=20
+mathematical analysis. Einstein relied on the fact that the metric was=20
+consistent with the Lorentz transformations and concluded that Minkowski =
+
+geometry had to be the proper geometry to be used to describe reality. =
+</P>
+<P>What Einstein apparently failed to realize was that, by analytically=20
+representing the Lorentz transformations, he had already defined some =
+aspects of=20
+his mental picture which were not actually necessary. The assumption =
+that clocks=20
+measured time was already so solidly embedded in his representation of =
+the=20
+Lorentz transformations that he was unable to see his error even after =
+he=20
+himself actually discovered that clocks measured something else. What he =
+missed=20
+was that they could not be used to define the boundary between the past =
+and the=20
+future. From Einstein's perspective, this was the minor issue that =
+simultaneity=20
+could not be uniquely defined. </P>
+<P>This issue was not found to be bothersome because Newton had =
+established the=20
+time dependent mechanical model of reality so powerfully that no one at =
+the=20
+time, saw any need for that ancient division between the two realms of =
+reality.=20
+It was the authoritative scientific position that, if you knew past =
+exactly, the=20
+future would be exactly predictable and the boundary, from the =
+scientific=20
+perspective was unimportant. A very important concept was discarded as=20
+unnecessary<A=20
+href=3D"http://web.archive.org/web/20081222192216/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm#N_3_"><SUP>3</SUP></A>!=20
+I hold that this is the exact source of the conflict between Relativity =
+and=20
+Quantum mechanics. </P>
+<P>Since that time, experimenters have been analytically displaying =
+their data=20
+in Einstein=E2=80=99s picture and searching for relationships without =
+really ever=20
+questioning the applicability of his geometry. In order to understand =
+Einstein=E2=80=99s=20
+error and the consequences of that error we must understand the nature =
+of what=20
+is called "proper time". Proper time is related intimately to the metric =
+of=20
+Einstein=E2=80=99s representation of what he calls space-time<A=20
+href=3D"http://web.archive.org/web/20081222192216/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm#N_4_"><SUP>4</SUP></A>.=20
+</P>
+<P><IMG=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/Flaw002.gif"=20
+width=3D600 height=3D40> </P>
+<P>If one is familiar with Einstein=E2=80=99s theory of relativity, one =
+should notice=20
+two very important facts concerning real experiments which can be =
+performed. The=20
+first fact is that no physical object can follow a path in =
+Einstein=E2=80=99s space-time=20
+if any element of that path requires d<IMG align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8> to be non real (no physical object may move along =
+a path where=20
+d<IMG align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8> is imaginary). </P>
+<P>This is the first sign that something is amiss here! If no object may =
+follow=20
+such a path, why does Einstein's proposed geometry of the universe =
+include such=20
+a path? That this is not a trivial question is pointed out by the fact =
+that the=20
+issue of objects following such paths is a serious question considered =
+by modern=20
+physicists. This is the impetus for the search for tacheons: particles =
+which=20
+travel at speeds in excess of the speed of light. Anyone competent in =
+relativity=20
+can show that the existence of such particles yield demonstrable =
+violation of=20
+causality: essentially, they allow the past to be changed! Serious =
+scientists=20
+usually dismiss this issue as a flight of fancy; however, if that is the =
+case,=20
+we are back to the original question: why should the geometry include =
+such a=20
+possibility? </P>
+<P>The second fact, which is also of under appreciated significance =
+(dismissed=20
+as insignificant by everyone), is the fact that each and every object =
+which has=20
+any internal dynamic properties can function as a clock and that all =
+such clocks=20
+exactly measure d<IMG align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8>: i.e., proper time. This fact is true even under =
+acceleration;=20
+a point seldom pointed out by any authority on relativity<A=20
+href=3D"http://web.archive.org/web/20081222192216/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm#N_5_"><SUP>5</SUP></A>.=20
+</P>
+<P>If one wishes to be exactly correct, any competent physicist knows =
+that, when=20
+he performs an experiment, there exists no clock in the universe which =
+yields=20
+the correct time for the reference frame used in the calculation of the=20
+consequences of his experiment (such a clock would have to be in an =
+absolutely=20
+perfect rest frame). He will hold that the errors are negligible and=20
+unimportant. I agree that they may,by care, be made as negligible as =
+desired but=20
+I deny that they are unimportant. </P>
+<P>Please notice that, if one is to be exactly correct, a subtle problem =
+has=20
+been handed to the experimentalists. They take measurements on the real =
+world:=20
+x,y,z and "some clock reading". They then display that data in =
+Einstein=E2=80=99s=20
+geometry (the display is usually via analytic and not graphic methods =
+but it is=20
+display none the less). Somehow, they always manage to perceive the fact =
+that=20
+all clocks measure proper time to be a trivial issue, not really =
+significant to=20
+their problems. But Einstein=E2=80=99s coordinate system requests they =
+display x, y, z=20
+and time (not proper time). This error leads the experimenter into an =
+almost=20
+insoluble problem. His problems are only shielded from his personal =
+realization=20
+by the superb power of the mathematics available to him or the usually =
+small=20
+relativistic effects. </P>
+<P>In order for you to understand the depth of the =
+experimenter=E2=80=99s abstract=20
+dilemma, consider the following circumstance. What kind of success would =
+you=20
+expect of a student who took data in an experiment =
+(a<SUB>i</SUB>,b<SUB>i</SUB>)=20
+and then displayed that data in a geometry using the coordinates a and =
+c; where=20
+he had defined b (one of his measured variables) to be path length of =
+his=20
+finished plot in the geometry. By selecting such a geometry, the student =
+has=20
+presented himself with an almost impossible problem: he must know the =
+solution=20
+(the consistent set of c<SUB>i</SUB> which go with his measurements=20
+a<SUB>i</SUB>,b<SUB>i</SUB>) before he can display his data. If his data =
+
+produces straight lines, the problem is straight forward; but if the =
+data=20
+produces curves, finding the corresponding data set (c<SUB>i</SUB>) will =
+become=20
+a mathematical chore that the very best of us would rather avoid. </P>
+<P>That problem is exactly the problem the physics community has been =
+faced with=20
+solving during the last century. As would the student above, they have=20
+discovered that the problem is quite easy so long as the data falls =
+along=20
+straight lines (special relativity, i.e., no acceleration) and time is =
+linearly=20
+related to proper time; but, just let a little acceleration confuse the =
+issue=20
+and to merely display the data analytically drives one to mathematical =
+notation=20
+so complex that very few (if any) experimentalists even bother to =
+attempt a=20
+"correct" representation. Most do not even develop the skills necessary =
+to do=20
+so. </P>
+<P>The fundamental problem is two very different concepts of time. One =
+concept=20
+of time is the idea that there is a state called the present which =
+divides the=20
+universe into two different realms: the past which cannot be changed =
+from the=20
+future which cannot be exactly known. The second concept of time is that =
+it is=20
+the reading off a clock. These concepts are fundamentally inconsistent =
+with one=20
+another. </P>
+<P>Two issues ignored by the scientific community should be looked at =
+very=20
+closely here. First, any competent physicists knows that it is =
+impossible to=20
+construct a device which will provide a universal division between past =
+and=20
+future for all possible reference frames. This being the case, they =
+simply=20
+ignore that concept of time as being of no scientific significance. =
+Quantum=20
+mechanics, on the other hand, seriously confronts that concept. </P>
+<P>The second issue is the fact that all clocks are dynamic physical =
+entities=20
+controlled by the laws of physics. Since the fundamental axiom of =
+relativity is=20
+that the laws of physics are not frame dependent, the readings on a =
+clock cannot=20
+possibly be frame dependent! Note that the only measure in the theory of =
+
+relativity which is totally independent of the reference frame is =
+Einstein's=20
+invariant interval which, as luck would have it, is exactly what all =
+clocks=20
+measure. Scientists avoid thinking about this issue by placing their =
+reference=20
+clocks in specific reference frames as if these frames are of special=20
+significance. </P><STRONG><FONT size=3D+1>
+<P>A Path out of Confusion? </FONT></STRONG></P>
+<P>The answer to the dilemma is frightfully simple: one should work =
+directly=20
+with the experimentally measured variables. That is to say, we should be =
+
+displaying our data in a geometry where the coordinates along the path =
+of the=20
+objects of interest are x,y,z and proper time. Notice that this change =
+does=20
+absolutely nothing to the data describing the universe! This change =
+constitutes=20
+no more than a different representation of exactly that same data and =
+must obey=20
+all the equations obeyed by the data in the original representation. It =
+is no=20
+more than a different (and, in some ways, more convenient) display. =
+Please note=20
+that I am not proposing either absolute time or any kind of "ether" =
+theory; all=20
+I am saying is that one may, at any time, choose a reference frame =
+within which=20
+to plot their data. </P>
+<P>In order to see the consequences of displaying our data in this =
+geometry, let=20
+us rewrite the differential relationship derived from the Lorentz =
+consistent=20
+metric deduced by Einstein with the proper time under the radical; thus=20
+discovering the metric of our suggested geometry consistent with physics =
+driving=20
+the change in the measured variables. </P>
+<P><IMG=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/Flaw003.gif"=20
+width=3D600 height=3D40> </P>
+<P>Several surprising things have occurred; two of which are apparently =
+quite=20
+unreasonable<A=20
+href=3D"http://web.archive.org/web/20081222192216/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm#N_6_"><SUP>6</SUP></A>.=20
+One of the most astounding things about that metric is that it is =
+exactly the=20
+form we would expect for a Euclidean metric. Who, in their right mind =
+would have=20
+expected the Lorentz consistent transformations required by Maxwell's =
+equations=20
+to have lead us to a Euclidean space? The second rather different aspect =
+of this=20
+picture is that "t" has returned once more as a parameter of the motion, =
+not a=20
+coordinate. </P>
+<P>On the other hand, two other consequences seem, at least at first =
+glance, to=20
+be in direct conflict with reality. First, if the measure along any path =
+is cdt=20
+and t is a parameter of the motion, the speed of every entity described =
+in this=20
+geometry is identical to the speed of light (a comment seemingly =
+contradictory=20
+to any experience). The other equally strange consequence, that tau =
+apparently=20
+represents a real axis totally and completely on par with the other =
+three axes,=20
+seems also to be in direct conflict with reality. This geometry is a =
+four=20
+dimensional Euclidean geometry and it is counter to our intuition that =
+there=20
+could exist another axis totally equivalent to x,y and z which is not=20
+perceivable. </P>
+<P>I would like to take time out to assure everyone who has managed to =
+get this=20
+far, that there is no physics here at all! We have done nothing except =
+propose=20
+to plot object paths in an alternate geometry; any problems which appear =
+to=20
+arise must arise because our mental picture does not map these events =
+properly=20
+into our common perception of reality (as seen in Einstein's space-time=20
+continuum). I will therefore proceed with a proposed mapping which I =
+think makes=20
+sense. </P><STRONG><FONT size=3D+1>
+<P>Mapping the Picture into Reality </FONT></STRONG></P>
+<P>This fourth dimension, which arose from the path length from =
+Einstein's=20
+theory (his invariant interval), must be given as a function of t (the =
+parameter=20
+of the motion). It should be evident that c<IMG align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8> is a measure (confined to the space-time path of =
+the event of=20
+interest) of the total path length of that entity since it was created =
+(the=20
+integral of cd<IMG align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8> along that space-time path). Clearly, the start =
+point is=20
+either the beginning of the universe or some other point of interest. =
+With=20
+regard to that "point of interest", if we have two entities interacting, =
+it is=20
+quite rational to conclude their position in c<IMG align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8> coincide. </P>
+<P>Now, that idea immediately generates some major problems. If you =
+start laying=20
+out your data in such a picture, it is very easy to set up the following =
+
+problematical situation: </P>
+<P>Start with two entities interacting at some time t=3D0 (we are free =
+to set our=20
+zero of the parameter of motion to any value). Presume that, following =
+the=20
+interaction, one proceeds into the future with a relativistic velocity =
+whereas=20
+the other proceeds at some much smaller velocity. Then allow the two to =
+interact=20
+later via a photon exchange. Clearly, from what we have said above, the =
+two=20
+entities no longer have the same value of <IMG align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8> and yet they interact via an entity which has the =
+property=20
+that <IMG align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8> has exactly the same value everywhere on its path =
+(the=20
+invariant interval along the path of a photon is exactly zero always). =
+We=20
+clearly have a logic problem in our picture. </P>
+<P>How is it that this problem showed up here but not in Einstein's =
+picture? As=20
+I said earlier, all we are doing is re-plotting our data in an alternate =
+
+coordinate system! The fact is that exactly the same difficulty showed =
+up in the=20
+conventional view only it was never brought to our attention. =
+Essentially, we=20
+failed to mention the well know fact that clocks need not read the same =
+for=20
+entities associated with those clocks to interact (remember, <IMG =
+align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8> is exactly what is measured by clocks!) It follows =
+that, in=20
+our mental picture of the situation in our new coordinate system, <IMG=20
+align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8> differences must be projected out; they have =
+nothing at all to=20
+do with whether or not an interaction can take place. </P>
+<P>So, our problem is solved. All we need do is remember that anytime =
+x,y,z and=20
+t are the same (independent of the value of <IMG align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8>) entities can interact. If we keep that fact in =
+mind, it is=20
+not difficult to show that both pictures yield exactly the same =
+experimental=20
+results (as they have to)<A=20
+href=3D"http://web.archive.org/web/20081222192216/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm#N_7_"><SUP>7</SUP></A>.=20
+However, it does lead us to thoughts we might not have within Einstein's =
+
+picture. </P><STRONG><FONT size=3D+1>
+<P>Some thoughts about Quantum Mechanics </FONT></STRONG></P>
+<P>In this unconventional picture, we have a real coordinate, <IMG=20
+align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8>, who's actual value vanishes from the physics =
+while the impact=20
+of the time dependent changes in value remain significant. I do not know =
+how=20
+that strikes the reader, but I find myself drawn to the Heisenberg =
+uncertainty=20
+principal. If one takes the uncertainty in <IMG align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8> to be infinite, then one can only conclude that =
+the momentum=20
+in the <IMG align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8> direction is most probably quantized! What impact =
+would such=20
+an alteration in our mental picture have on the physics? </P>
+<P><IMG=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/uncert1.gif"=20
+width=3D600 height=3D50> </P>
+<P>and, most important to this discussion</STRONG></FONT><A=20
+href=3D"http://web.archive.org/web/20081222192216/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm#N_8_"><SUP>8</SUP></A>:=20
+</P>
+<P><IMG=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/uncert2.gif"=20
+width=3D600 height=3D50> </P>
+<P>Clearly, in terms of our new metric, since tau is a real axis just =
+like x, y=20
+or z, momentum in the tau direction must be mass. This fact has far =
+reaching=20
+consequences. Who among you has ever performed an experiment in the =
+total=20
+absence of quantized mass? Every experimentalist I know of works in a =
+laboratory=20
+where almost everything he deals with is in a mass quantized state with=20
+uncertainty in tau (half life) at least on the order of the age of the =
+universe.=20
+In fact, I would say that it is absolutely obvious that our day to day=20
+experience is built on observations of nothing but mass quantized =
+entities! </P>
+<P>
+<CENTER><IMG=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/twobject.gif"=20
+width=3D288 height=3D231>=20
+<P></P></CENTER>
+<P>It follows, absolutely and unconditionally, that the uncertainty in =
+tau must=20
+be infinite for any common physical measurements<A=20
+href=3D"http://web.archive.org/web/20081222192216/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm#N_9_"><SUP>9</SUP></A>.=20
+That is, it follows directly that every entity in the universe that we =
+deal with=20
+on a day to day level can have no measurable irregularities in the tau=20
+direction. The magnitude of the wave function which describes that =
+entity and=20
+its motion can not be a function of tau; clearly, the cross section=20
+perpendicular to tau of any macroscopic object is absolutely and =
+unconditionally=20
+uniform over any range within our conception. Two physical consequences =
+of this=20
+fact jump immediately to mind: the tau dimension, real or not, yields no =
+
+directly measurable phenomena thus vanishes from any possible perception =
+and=20
+secondly, the fact that clock readings have nothing at all to do with=20
+interactions occurring does not contradict the picture at all. </P>
+<P>Although the existence of a real tau axis could not possibly be =
+directly=20
+perceived, its existence does yield some subtle consequences. It =
+follows, from=20
+our total inability to perceive the tau dimension, that only those =
+components of=20
+motion perpendicular to tau can be perceived. Thus it becomes quite =
+clear that,=20
+although everything in the universe (in this mental picture) travels at =
+the=20
+speed of light, we only perceive velocities less than c (we are =
+describing a 4=20
+dimensional Euclidean universe and, in Euclidean geometry, a component =
+of a=20
+vector cannot be larger than the magnitude of that vector). </P>
+<P>In the picture just constructed, the only case where an entity can be =
+
+perceived to travel at the velocity of light occurs when its motion is =
+entirely=20
+perpendicular to tau. In that particular case, its momentum in the tau =
+direction=20
+must be zero: i.e., it is a massless object<A=20
+href=3D"http://web.archive.org/web/20081222192216/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm#N_10_"><SUP>10</SUP></A>.=20
+On the other hand, in order for a massive object to approach the =
+velocity of=20
+light, it needs to have an almost unbelievably high momentum in the =
+direction of=20
+perceivable space as its momentum in the tau direction (its rest mass) =
+is fixed.=20
+Please note again that all of special relativity must be valid in this =
+picture=20
+as we have actually done absolutely nothing except re-plot our data in a =
+
+different geometry; all numbers, all equations, and all relationships =
+remain=20
+exactly the same as they would be were we to use Einstein's preferred =
+geometry.=20
+</P>
+<P>What first appeared to be problems with the new metric turn out not =
+to be=20
+problems at all. In fact, as I have shown, direct detection of such a =
+real axis=20
+violates quantum theory. The beauty of the picture is that we are now =
+dealing=20
+with a Euclidean universe, much much simpler to mentally handle than =
+Einstein's=20
+space-time construct. Problems which were difficult to explain to a =
+novice are=20
+now simple. Time is once again a simple parameter of the motion. =
+Simultaneity is=20
+an well defined concept; in fact it can be shown that the universe in =
+this=20
+perspective is dynamically Newtonian in many respects. Time, as =
+displayed in our=20
+reference frame is an interaction parameter and is, in fact, the =
+division=20
+between past and future as per the original concept of time. </P>
+<P>One should make one further observation about this frame and how it =
+brings=20
+consistency to our picture. Simultaneity is easy to define in any given=20
+relativistic space-time frame; the problem is that individuals in =
+different=20
+frames will not agree with one anothers definition. However, all =
+observers will=20
+agree with the order of specific related interactions (a result often =
+shown in=20
+any examination of the subtleties of relativity<A=20
+href=3D"http://web.archive.org/web/20081222192216/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm#N_3_"><SUP>3</SUP></A>).=20
+The solution here arise from the fact that "time", as define in this =
+picture, is=20
+not a measurable variable (it is rather a mental construct providing the =
+
+separation between past and future). The standard Lorentz =
+transformations=20
+distort the entire geometry without disturbing that final result. A =
+consequence=20
+I will demonstrate to any interested party. </P>
+<P>What is time dilation all about? It is very simple! Clocks simply do =
+not=20
+measure time: i.e., the rate at which we go into the future. They =
+measure only=20
+the undetectable tau component of our motion. On the other hand, any =
+motion=20
+through space must correlate directly with propagation into the future. =
+In=20
+ordinary circumstances, the component of our velocity perpendicular to =
+tau is so=20
+small that only the tau component of our motion is significant and that =
+leads us=20
+into the delusion that what is displayed on our clocks is time. The =
+actual fact=20
+is that all clocks, including our biological clocks, measure only tau=20
+displacement (proper time!). Any movement in space perpendicular to tau =
+forces=20
+us into the future without changing either our personal clocks or our =
+perception=20
+of time passage. </P>
+<P>
+<CENTER><IMG=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/girls.gif"=20
+width=3D322 height=3D284>=20
+<P></P></CENTER>
+<P>If we were to move one light year extremely quickly (that is, little =
+time=20
+would pass on our personal clock) we would find ourselves roughly an =
+additional=20
+year in the future not indicated on our clock. Remember, clocks do not =
+measure=20
+time, they measure proper time: i.e., change in tau! What we have =
+actually done=20
+in this case is to make our tau component of movement very small. Since =
+our=20
+actual velocity is always c, the space component of our velocity must, =
+in this=20
+example, be approaching c. Any outside observer (who only perceives =
+motion=20
+perpendicular to tau) will immediately conclude that we were traveling =
+at very=20
+close to the speed of light. It should be eminently clear that we can =
+never=20
+appear to exceed the speed of light because we merely end up going more =
+quickly=20
+into the future: that is, we simply go into the future without our =
+clocks=20
+changing! </P>
+<P>Kinematically speaking, it is not difficult to show that the two =
+seemingly=20
+violently different pictures of the universe (Einstein's and mine) yield =
+
+absolutely identical results as they must<A=20
+href=3D"http://web.archive.org/web/20081222192216/http://home.jam.rr.com/=
+dicksfiles/flaw/Fatalfla.htm#N_11_"><SUP>11</SUP></A>.=20
+</P>
+<P>There are two points I would like to make here: first, Einstein's =
+relativity=20
+is an extremely valuable perspective for expressing the laws of physics =
+in a=20
+form which are truly independent of our frame of reference but that fact =
+should=20
+be taken as a convenient mathematical structure and not a statement =
+about the=20
+"true" structure of reality. And second, if anyone is interested, it is =
+not=20
+difficult to show the analogous extent ion of this work into the area of =
+General=20
+Relativity. The results are much simpler than Einstein's machinations =
+and also=20
+produce a few subtle differences which I think are worth looking at=20
+experimentally. </P>
+<P><STRONG>
+<P>End Notes</P><FONT size=3D-1>
+<P><A name=3DN_1_>1. </A>Paul Renteln, "Quantum Gravity", <I>American=20
+Scientist</I>, 79, 508-527 (1991). </P>
+<P><A name=3DN_2_>2. </A>John David Jackson, <I>Classical =
+Electrodynamics</I>,=20
+(John Wiley &amp; Sons, Inc., New York, New York,1963), p. 369. </P>
+<P><A name=3DN_3_>3. </A>Just as an aside, I would like to point out =
+that anytime=20
+this difficulty is brought up (in any of its many possible guises), it =
+is always=20
+quite quickly dismissed as being of no consequence. Anyone competent in=20
+relativity can show very easily that the finite speed of light yields =
+the fact=20
+that you can choose any reference frame you wish and, in detail, =
+demonstrate=20
+that no real difficulties exist. What I want the reader to comprehend is =
+that it=20
+is not the mathematical results of Einstein's theory of relativity with =
+which I=20
+argue. It is with the interpretation; an issue not yet clarified here: =
+i.e.,=20
+please delay judgment until my arguments are completed. </P>
+<P><A name=3DN_4_>4. </A>Jackson, Op. Cit. </P>
+<P><A name=3DN_5_>5. </A>This statement is true by definition: i.e., =
+even in=20
+Einstein's own picture, the path length is given by the integral of =
+icd<IMG=20
+align=3Dbaseline=20
+src=3D"http://web.archive.org/web/20081222192216im_/http://home.jam.rr.co=
+m/dicksfiles/flaw/graphics/imagetau.gif"=20
+width=3D6 height=3D8> along the path. </P>
+<P><A name=3DN_6_>6. </A>Please note that I say apparently. I say =
+apparently=20
+because I know I am only representing the data in a different geometry =
+and that=20
+the results cannot violate experiment; the difficulties are bothersome =
+because=20
+they imply my mental picture is in error. </P>
+<P><A name=3DN_7_>7. </A>So long as we remain in one, non accelerating =
+reference=20
+frame (which is true here as our purpose is nothing more than to display =
+data)=20
+there is nothing in Einstein's Theory of Relativity to deny us the =
+option of=20
+defining simultaneity. The difficulty occurs when we attempt to make =
+such a=20
+definition universal (true in anyones frame of reference). </P>
+<P><A name=3DN_8_>8. </A>Nothing more than the uncertainty in=20
+m<SUB>0</SUB>c<SUP>2</SUP> (Energy) in the unstable particle's rest =
+frame! </P>
+<P><A name=3DN_9_>9. </A>If not infinite then something in excess of=20
+3x10<SUP>20</SUP> light years (that estimate is based on a rather =
+conservative=20
+estimate of the stability of protons). Note that this is over a billion =
+times=20
+the standard three dimensional diameter of the universe. You will excuse =
+me if I=20
+use a mental image of infinity. </P>
+<P><A name=3DN_10_>10. </A>Note that although the tau component of its =
+velocity is=20
+zero, its tau dimension is still infinite! </P>
+<P><A name=3DN_11_>11. </A>This is just a different way of ploting =
+exactly the=20
+same information. <!--=0A=
+     FILE ARCHIVED ON 19:22:16 dec 22, 2008 AND RETRIEVED FROM THE=0A=
+     INTERNET ARCHIVE ON 17:46:00 jun 3, 2011.=0A=
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.=0A=
+=0A=
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.=0A=
+     SECTION 108(a)(3)).=0A=
+--></P></FONT></STRONG></BODY></HTML>
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://staticweb.archive.org/images/toolbar/wayback-toolbar-logo.png
+
+iVBORw0KGgoAAAANSUhEUgAAAG4AAAAnCAMAAADZ0o1tAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNl
+SUQ9InhtcC5paWQ6Q0Q3NkY3Njk4RDIwMTFERkFBMUNEQjYxRTQwODkwODIiIHhtcE1NOkRvY3Vt
+ZW50SUQ9InhtcC5kaWQ6Q0Q3NkY3NkE4RDIwMTFERkFBMUNEQjYxRTQwODkwODIiPiA8eG1wTU06
+RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDRDc2Rjc2NzhEMjAxMURGQUEx
+Q0RCNjFFNDA4OTA4MiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDRDc2Rjc2ODhEMjAxMURG
+QUExQ0RCNjFFNDA4OTA4MiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1w
+bWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pi/0bd0AAALxUExURQAAAP/yAP///6USPaYSJgcEAjY4
+NzMsM9aLlrZGc6s0XqcdUrEqN6w5Xtu6s1lYWaUSTqQOOOzq5dGcnrxWTqUSMrg0JtTW1MvLyxYY
+FaQbTeCViKOlo7EzOE1STcuUm5aWmc3IzfHRzNCqn8LUvKxBMcZXRuLi4nh8ZeuvpMmSgOGnhURI
+RascH6cUJnJlbbNGZ9WlsvHa0LuxAMyYizdBTLjAu3SDmacXUMhkacTC2w0GDoWFhaUYIJ+enaim
+p6QSQqYVG8vXw/Do6Nzb28RyZuzs7E1NTnd2dqslW6QOLoB/f3d9d7WvtUFAQX53APT09GBeXXRy
+c6wtVmZhY5OSk9fc3P32dd/UAHx6e728vFtiW0A9ANmmq+O8uzk7QMKJjM/Ozvjt7lZSAP/5lHFw
+cMjGxiAeACAgIKUSKaUXMfnp9K+srmZmZouKipybm6cZKLOysvbg19abls2LeuvB1NC4o9afrmxs
+bKQYRsllWFNSUre0tqwoR7UtIjUzMo6OjhAPBLm3upiXmCgqLLI8X5iQAdPQ079OObU9R5GQkNOS
+nKusq/n5+XB2cMDAv8NbasPCw8p4ieq2qsTJxevDv2VpXNWYpP70N8PLufPw7L5be/nl7Pz0VP39
+/blVY9vh2bU7Ofb49jAuALtobNqqsERKUf/0JNOho9a8qC4uLJeVlfHx8e/jAOaotfXf6/Li4t3j
+5efPyqAIJtmYg//8y6w5TVVXTOjKzbK2sc5ohawfScvS1fz8/H2Ed2Bja/Dv9//92/b29dqqocuC
+lv3l4N6jofr19e/k3qocNKELHrW+ua4iFsRvf/7y/vTZ6awqI6qype3T2f/8vKYbOas/MuSxx6+5
+touVgqqvnMrAF8/EAKSeqykpN6snNN/LvtHZyP/6/tCJi/v8+9jS2P79+fL19ZyjmM1zevfz8vr4
+9NPOo5qYqp+bkOXdL+Pp8e/y76obQ7izJ5efcvzt5dPR2YKLjffo4Tg+L/LGzf///4WTO9IAAAD7
+dFJOU///////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////8A458DyAAABuRJREFUeNrU13dcE1ccAPB3B4dAgBCK
+hiC2hbZEMFJKahtrZkszoIaEhJJQhLKRDULZG0EEqyyte1brtu5Vtc7aXbWu7r33/v3V9wgJAULV
+T/d9Prn3ubv37vt+797v3QXBP7qhf4WLNQOksBOgUAncaLV5LkCzURoHwNWLzZEAMvaWLYX4yBjX
+EAn8gtjoOGv76AIa7/ON4i24aMhX432GjF+Bi7hqvGPPp6U+AMb8fB97To8r8OszwMwHrkyvDgCY
+m5wixee0nUZcFGcnKNXkKK8Tc53s6Dwrp9cSThXNzgTwERRmEFvMdwFyA3KhgFYrAarVDXx7TrwZ
+4JmG6oQCcpZoUCyo6QKYx+5SY45rZnOjcQ12gExHxkJmGx2zlrSIlbLn4ybVNLlaGNukJTcgdIKK
+Oxf3J1qcp7PnyOjoCruq1T79jfEuT9uJO7yGrdLjg5SahnwxwTdL55HhCrBqfhUqUlndwsY37SQ7
+/Bj0m0lgeWREdYLYFHzSnC9dM+TZ4b7rCiC2RUlGgzwZmWAN5nTVCQLc70yZzsUIcFzlx8dPEoyb
+rdzcGpkKFxVxWi5A5CY/crWggF+PCyl5dnTFJlIto5mrtOdkuL90CuiaSf+6SCN+QTEeMjpgxYc1
+AFsi6bZiciSTkbFLiLRFB0AibVImtJHzYnLAbfsATyuYLyZcZHF/tYbmZ/7FRPhPc7+VvfJPcrMl
+vv3lKvM+vZG98NahV49Nz7wWF5R0blnS/ty+pOeGXt429eDBk2UjOM4cUuh+RTyEGhmUMeRqIFp/
+Le6OMN9bcsaV1ypC6ZITi5JS6YgQr6CekB3du0TO8tr9wxq5ceac6is79S4as0SF4rpQC9C9X765
+aij3yBTIPLCqBqfRN9Kfm9YM4V538r3Fe8Jt7s6huXsVcsnKlxcpXu3wUIx3Hfv2g4aoUoCL409H
+4Hrv7XiOplPD5cEhiqKe25ELfTNqXsK8BXkMg1oO028mv6VXtqH1vZcz6dc+gXocPTMdpqBp6OjQ
+6Kzc3eUczUqN87a7/N++ydMZcx5Pec4shaoiheTVcnhlqefspSXz3DjBIZP9vSzcrT7MGFChK2Z0
+5GGm5SjKaGN4DOLx77+EuSMV6N5AJIjMZt51zLlGhW90d550l7/HAIeL0IjJIk+DfDW8FHWIxVm3
+xM0Jcyx7bgp6uglNfAFFH5umDWR44mwUqGoEF7TqNXTvfWghJDP3j8o95h42jPMS5SyqcqoLcnOq
+esl7dYQj7uHpaOI96KEHpgn8UD3okR+bhzluAOEeAZdRubEjuJmhXizFk1OdxgW5cR58tHLcNbhA
+NAbuvG7OYXQsyQwr5/3Xco6jG+T8/9fRPb/3T0XH3BAXun3/uXcMI6LzV9i4XXUOuGR02Bpd8g1w
+YXgBAQdc0eTyAe5EcFVJP1dpz126DHmEexya/G4oOuiecweryI7Dq8ruH8vKcoPlhFtgWTODT0vC
+UxcPcuSNbuHImjmc+4M0vzhWfsieq12qCV+Ga3xkx80WGQyVB8GOO/6VmD06Vy/mjTpVOJ7vG3Js
+XA5LxKrtgaSqqXtFNi5chM9e6LMbzFjENFq4hJSRHMPjbTo8at5ttJ+Zh2ZrJKXLXnTiiFiEm7os
+qOQBN/mc7u+GzcwDeQNTRTuS26dUfrziOvNulvvM0LIi/wXtlf1TpVTRnwg9I5boGsd5l/XDF2nf
+P/FEfPyG+D+O7il3h2vmdaZ5Crt1w1XT8q+pwS3eAdch16zTFE0qF9Wu1IRZZibJu2uvKjXkBXTk
+jC26qxbDJBQKYxIT3xCupahnh7/Nw0J3npU7i57fvfOst8jCvY+T0Rad07pu73aHHP8AmtiL9hUi
+fZuFo7auTcyKEWbFxJjeSKSotLRWarmVWyCfEM7ShBucJ8GM7vJFJ/ugx7XDMHO8a1RlrUgS8iRL
+Mgu/70rWcQwaztIl+NMoRDEkzQXIqMXpdZRhshd/OMBRiBKmCdcKhVspzDWasnB4A1zfBKeonJyo
+sb6pA983Xp+WeuFnt9ujvT18FiRJWJpaVt2pCN+6uvad81Z6VCXVTUi6HW2iBSjOB2XDFd609dkT
+YUXKYh+cdy1gRJmYS0xMI9FtpdJMwqzErFYqfYCjt8+YhbcTVg3Kd032ZeWc/jw1N/czgF9WR104
+y3kxgv6opORl+oPU3NQzubnvPf14HC1d2HtcLQaaz1/h862l6U/ZKhBn926gskxbG02NQqGJihG2
+tlKmQW7Ett1TnlO52vbVud11Y9m2bWeu76tXeQz/YDmVtjYxhkqLiRHa5uae0Th6R8fJjqA/83cg
+fTADNsSfT09/dk/6nr/zL0n6cpzd6fHx8ecHz/0uwACissc3q1bPBgAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://staticweb.archive.org/images/toolbar/wm_tb_prv_on.png
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAMZJREFUeNqU07EKQWEUwHEuSSaLkicgg3TZzCySvIKk2GVgJZmsBg9g
+8QK8gcHoASwGNoMS/l+db6Au3zn1W279b+fe796w779Cyimi7ymCFBbYox51CGLoYIS0XHv+C2uY
+ynofExRmJWgG3fE7TGKMHuK/VrFhRJ7DRBmXN2XCBibIa87Ek5US2sM04Ro5DHDRhGbumMu6Szxc
+QztndFHGVhPaOaCKFo6a0Iz5+jcoYYira2jnhhkKWNlO83ec0EYFu7cAAwCVABzGI3/GxAAAAABJ
+RU5ErkJggg==
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://staticweb.archive.org/images/toolbar/wm_tb_nxt_off.png
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAMhJREFUeNqU0s8KAUEcwPHBJjm5KHkCVy/BRZKnUMpBuXKmHGz+pDbl
+CVwdOCoH5U8pD+DiwM1BSb5TO7WHjfn96tPW1reZndnI1Jt7SqkR9kowUZSwwwBpSfjxnw2cUEfc
+JgxOBkNsUZSEZvJYYoGcJDRT8Q+tj5Qk1JNAE2fUELMNzWQxwRFlSWgmqXfhCII7unDxsgnfmKGN
+m3n5L1yhhYPtdVxQRSEsClvxgZ7/9zx/bcUJrKq/o4OrzUnpcI0xNpI7+QowAGDEIqP9eOV2AAAA
+AElFTkSuQmCC
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://wayback.archive.org/jsp/graph.jsp?graphdata=400_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000010001000_2004:-1:010100010001_2005:-1:011110001201_2006:-1:210001000110_2007:-1:100014210000_2008:11:000010000001_2009:-1:000000000000_2010:-1:000000000000_2011:-1:000000000000
+
+iVBORw0KGgoAAAANSUhEUgAAAZAAAAAbCAYAAABSv9ljAAABe0lEQVR42u3cQa6CMABAwZ7Ttcdx
+6bE4indAMBJrU0JbqBozTboCeXyadnY/DMMwhs5DQ0NDQ+P/Go/INE49p4aGhkY8p6NnPtzGtsb5
+2nNa8+I1BIiGhgZAAAIQDQ0NgAAEIBoaGgABCEBsQg0NDYAAxAbR0NAAiDUHiIaGBkAAAhANDQ2A
+AAQgGhoaAAEIQGxCDQ0NgADEx9LQ0ACINQeIhsb/NtYO5uf/RWo6tHsCUvtOAAGIhoYGQAACEBtd
+QwMgAAGIj6WhARCAAAQgGhoAAQhAAKKhoQEQgABEQ+PTja0Daut63Ejv3fvs5XqusTZrD+S4Ufus
+2lYJUq1/Xw0gr2fVwXELl3Ge9iBANDQAAhCAAERDAyAAAQhANDQAAhCAAMSBpQEQgAAEID6WBkAA
+AhCAAERDAyAAAQhANDQAAhCA/DogofPQ0PhiYzmcmq4njfTeXc9ODvf0N2tzq5V9xxwgB3yzt/uS
+RulvS9/pyDXPjhgQe7Bs3AHPUtDb2ONVbgAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://staticweb.archive.org/images/toolbar/transp-yellow-pixel.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP4/5/hPwAH/QL+ecrX
+pAAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://staticweb.archive.org/images/toolbar/transp-red-pixel.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A
+/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAA1JREFUCNdjeMPQ8x8ABcwCeP+6qaAAAAAA
+SUVORK5CYII=
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://web.archive.org/web/20081222192216im_/http://home.jam.rr.com/dicksfiles/flaw/Flaw001.gif
+
+R0lGODlhWAIoAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4O
+Dg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEh
+ISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0
+NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdH
+R0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpa
+WltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1t
+bW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CA
+gIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOT
+k5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaam
+pqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5
+ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zM
+zM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f
+3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy
+8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///yH5BAAAAAAALAAAAABYAigA
+AAj/AIEJHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuX
+MGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOK
+HUu2rNmzaNOqXcv2JACCbwXGbfsTgN27ePPq3cu3r9+/gAMLHky4sF+6iD/OvQs3cc+5FyGblDyS
+MkrLjjNXpCwZs2aYniO+De1x9GRgpEOa/syaIueCqVunjM1w8Wm5JG3PHkhbtmzLr33H7O2QuEbj
+kV0iF+4YuMHliO3exg3b+UHjnINfhwi8M0LsDaXz//7OvPz25+jNp6/c+Pz68dzJv4dfPKF2+vXz
+46euvr/19v3tB5Ju7r3n2X/z7YcZggmiBqB+4fEHGXQBrsWggxVimJuA/LkX14UawmZfe/dx2CGA
+Hz7UW4r0sZihcBdSqJZ0izFmX17FucjbaoyJ5yCOCWb3Y43UAfngiXLxiBduRi6U3YSm2cjkki8y
+15mPIZb3oYsyoqhgknB5d6ORYorno47P6SXglhoSeF2TUEoIZpZdVplWanWaRWCeYbbo5ZFZyveg
+m1xGKOKf+EE34XpoBmqnlQrxSdaiO9bWZHV+digmoAXKKRAvlLo54qGaHqnomiQ2+CiMgppHZJsb
+7cTZ4qKbRspopeNR6qSBuAZ6KpKvlrjqsK6CuZqjrpVaJI8n/oohjb0iCSGbx4qqYqbU6igpsdyK
+1eOWWGIELYk0somatfGdO5qu0l6b5LrqnmlRjfSeqy6nrXar7765kppusrb6KxFyMna5Lb8IZ3is
+iaPOu52wA/+72cQJV2zxd+G22ynFfQrM8a4ZLXfwxSSzWvLJKKes8sost+zyyzDHLPPMNNds8804
+56zzzjz37PPPQAct9NBEF2300UgnrfTSOQcEADs=
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://web.archive.org/web/20081222192216im_/http://home.jam.rr.com/dicksfiles/flaw/Flaw002.gif
+
+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
+9tlop6322my37fbbcMct99YBAQA7
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://web.archive.org/web/20081222192216im_/http://home.jam.rr.com/dicksfiles/flaw/graphics/imagetau.gif
+
+R0lGODlhBgAIAPcAAAAAALi4uAAzAABmAABmMwAzMwBmZgAzZgAzmQAzzAAz/wAAMwAAZgAAmQAA
+zAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAGAAgA
+AAgYAAMAGAhAoMEACA8mLJhQIUKGCx8uLBgQADs=
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://web.archive.org/web/20081222192216im_/http://home.jam.rr.com/dicksfiles/flaw/Flaw003.gif
+
+R0lGODlhWAIoAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4O
+Dg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEh
+ISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0
+NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdH
+R0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpa
+WltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1t
+bW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CA
+gIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOT
+k5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaam
+pqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5
+ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zM
+zM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f
+3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy
+8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///yH5BAAAAAAALAAAAABYAigA
+AAj/AIEJHEiwoMGDCIHhWpiwIMOGDhEufAixosWLGDNq3Mixo8ePIEOKHEmyZEVcCk2qXMmypUmU
+LhvCjEmzps2bOHPq3Mmzp8+fHGdaFAq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOK
+HUu2rNmzaNOqXcu2rdu3cOPKnUu3rt27ePPq3cu3r9+/gAMLHky4sOHDiBMrXsy4sePHEAEIBEBZ
+8mTIdStr3sy5s+fPoEOLHk26tOnTqDF7tVyQNWvVb197rIyTdk3bPXHD7ip74Oveu9EC3+jaZvGY
+x3cmD64VuOzhzMlC7zidZXWT129Hb37Q+fa02TOG/y85XmT5kMPPfz/aW/dl1ZR/xjdOsL337hrt
+G4Re3vlzhOdlN99++K1nFX+t7aaeSgty9BuAECYoXoQSVmgRgha+h9F4GPpm4FUdaohZg+SJuNJy
+GdanIoUrFkhgiykCM919JsLo4YYJPfjhgTnGyBiJJFkG5EUo3kihkC7aaOSL77WXpI/H0ahkjzJq
+tiKSO06VHpONxeeae61ttuGAVcpYZXicEYllfZIJ6WVxYnJZo5dlToZlnEr6Z+aZ87VppZx7svlb
+m3s6iWeWUX1JZo2KuanhkPut6WigJT4qIZmLzpimiZMOuGZ3m1LaJKGW5hjqoKViCiiiWl74WHKQ
+Uv/Z4qdBwjprigJyuZykrmaIoo6R6crkfz6ymmiwjgFbZ0OhyrokrZEdGqafRior6rVPBqosrxU5
++ayNuVboLaerGitViD/6xm2Qw0I70pvVqqsiscjeaue8UwIKrKfl4rrko/T+a+7ASzlKKrYfRXnv
+ouQdrO3CTRZbr8Hy5tvtlYTa6mC8hTp8cKwEh2wdvHye6Cm8YJrncMfU1snvbHa2TC7MMZeJJ5CK
+qitzzYzWK/LPyWa6Mc3O9kwkcQmbB/TSxoIZIHr4jUt0r0lXzfTVHzJsdL/5Rcr1hFSDBDLWZEen
+ddlop6322my37fbbcMct99x012333XjnrffefPcK7bdeRP0tONsBAQA7
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://web.archive.org/web/20081222192216im_/http://home.jam.rr.com/dicksfiles/flaw/uncert1.gif
+
+R0lGODlhWAIyAJH/AP///8zMzAAAAMDAwCH5BAEAAAMALAAAAABYAjIAQAL/nI+py+0Po5y02ouz
+3rz7D4biSJbmiabqyrbuC8fyTNf2jXvCsBt9zhIIhcCi8YhMKmc9IuLH80GhDSfKOcQ0qcOp9Fml
+LsdkoNenEJfXbJm6rYPL5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjICPF2aNUoOUmZFBmWlvDI8LM5
+4UlxydM1pQZ60FmpaiJ2eboKmxn1KapFlGVBiqU7ytv7RBornGKqOXw88kqojNzs/AwdLT1NXW19
+jZ2tvc3d7f0NHi4+LlGbuMNMrr7OWs4JForamMqu+pheH4PO5eXaxYlPy6wN6BbQi8Kv06aA+f60
+GiivoRlgaGaVqnhDoQaN/19kjYqI6o0ucxIHKQwGr6Qfku9AnnOp8qUDhjEF0exzs6bOnUFQKjrD
+M6jQoUSLGj2KNKnSpUybOn0KNarUqVSrWr2KNavWrVxtsOwKNuyYgpJyij1bzeeir2jb2lPrDiMi
+shDd2t3D9qPHuo5g0khn9uDdGg/9Ds5Uah+awnL1VgFBl2AxuaKYCT6szxgXzC1dwYukLC8Hs4v5
+1VWcMiRnS8b4kr7KESFIK55IjrzZpHE8xxXPgDb4ejUJwYyFj9R7i9e/MMtLaAx4kTLl3HyFIxG5
+13oI0RiDz8Gl/cVkw+EJ6v7ECGj5II/X5/BuB777+fHt0b8/Sb1M/PzX+xbqD2CAAg5IYIEGHohg
+ggouyGCDRRUAADsAmcwAzP8A//8z//9m//+Z///M//8AzMwAmf8zzMwzmZkAZv9mzP8AmZkzZsxm
+mWYAM8wAZv8zmf+ZzP8AZswzZpkAM/9mmcwAM/8zZv8AM////wAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABYAjIA
+AAj/AAkIHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuX
+MGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOK
+HUu2rNmzaNOqXcu2rdu3cOPKnUtXIgAAdfPq3cu3IN6wd/sKHkzYL4G/YBEXXsxYbmCxeBU3nky5
+7N3LgCVX3sx5a+SBmrNefty5tOmeo0k/RBz66meBrU/Lnm0xtuGDim3jBp2YN+3fwCmqTjgcNkHd
+BlnXRH67tu/ggKHrLI5bs2Tmx58711g8de7Q2A9r/5fOlTp5mK9hB36cXvt13eEbtq8N3r11iMrP
+lxevn2bk99kNlxpC5nk0n3D8Nafce6zZFl9/Tx0IIUt/CZjdYbmt9iCCGf3n13weXnjchhNOVWGJ
+6KnXHH+qMVdgR+y9qFCFDGaIoYjJkYhiU/ntSCFoCz5HGnyxeSfjQicmaJeKF9rYYnU+fmVjlCl9
+ZxyLI145U4Pb3cikgj1++aF3VEZIZpknGenlemSONuOAInFJopVaYgnklTqiaaKeRSXpEGYdsjnn
+mWoaSeN3bvLpmaJEHSlinkwBymiEkwblKI6QJhVmpZya5ueSXk3Z6ahUZsojqaj6aOqpqbba36qR
+uksqK3mwLlXrrLjSdaumufYqm6j7+SpsZ2d2BeywyCaLUrHKNuvss9BGK+201FZr7bXYZqvtttx2
+6+234IYr7rjklmvuueimq25VAQEAOw==
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://web.archive.org/web/20081222192216im_/http://home.jam.rr.com/dicksfiles/flaw/uncert2.gif
+
+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
+Ow==
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://web.archive.org/web/20081222192216im_/http://home.jam.rr.com/dicksfiles/flaw/twobject.gif
+
+R0lGODlhIAHnAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4O
+Dg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEh
+ISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0
+NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdH
+R0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpa
+WltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1t
+bW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CA
+gIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOT
+k5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaam
+pqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5
+ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zM
+zM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f
+3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy
+8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///yH5BAAAAAAALAAAAAAgAecA
+AAj/AIEJHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuX
+MGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9euoLDg
+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
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://web.archive.org/web/20081222192216im_/http://home.jam.rr.com/dicksfiles/flaw/girls.gif
+
+R0lGODlhQgEcAfcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4O
+Dg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEh
+ISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0
+NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdH
+R0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpa
+WltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1t
+bW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CA
+gIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOT
+k5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaam
+pqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5
+ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zM
+zM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f
+3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy
+8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///yH5BAAAAAAALAAAAABCARwB
+AAj/AIEJHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuX
+MGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOG
+BIUFBxKxaNNSBIMCGBAIqBxiAgRIrd2vuBDUhQgKBQIAZ+8KzgoDQ0RMYIBhgoBgsOOqKABAQAII
+CBCBqJCgAQMHUUIYjR+LhooEACRgUABgEYihLR7ACVEkHk2bKQ4AAsEAwAQMDQA8wLAA2GsQ0ura
+yJMiaAsMBIiBCDxDMIwQRvLrRxGchQXhcm4sWAIf/4RzGrv5oKlzmz6NA85Cuufj/0TxHNhtIHVB
+IAAC/CCg5TAwB4V8BNq0n0CgEFfWX8wRhMhfAMCGCwRoFGghTJAgwFtBMOwFAwCeEYTJiJjgMtCG
+F6aIEiowoILDgAbB4F5w1Klo40ywAAEGKAkhggccx90o5JBEFmnkkUgmqeSSTDbp5JNQRinllFRW
+aeWVWGap5ZZcdunll2CGKeaYZOoUIUhnDhRhmmvihlCaOMFZpkhtLiRnQ2sWJOedBOU5EZ8d+Tkn
+nYK+6SZEd+556EGAJsTmonZC6lCjg25Up0KUOirpo5FSlKlGn1ZqEadq5tkmbqReCgyfpAqkKpyv
++v955qm0JuqmqqXCiqqpu84qa62rFuqqsFmm6uuww/YaLLLL6nnrocYiS+uyv5b6T7O5UgtptNo+
+22y0x2YbqpTTYlvqudheCiiu5RrLqrfnvhuspLnC6yu7gh5L7LhUKmous98q22qfhcobsMGKrgut
+rbsyW6e64c67aMH0aumvsLpKa2/FDDubrMTbwpssvfqG7PDC6AZcr8YET8yvkhDfq2uvtdbM6KYP
+//oorzun3PKpBtVcLcDAEr1vzhWLOtTLJzGt9FNOlxS1puU+bWbSLU09Ka5W22kSsS+BjabWZWJ9
+I9ljmi2k2k+zfbbbc8L9NlFF//sQ2iTxK/fcQVH/rKxEYssUKt4X7h02ySJHRDihnfZreNZma714
+SJlObqHlIw3uMsPujvy4pUljHvTdaH2ukubo9qzy0KIrHjqdQSNeuk+om4vvyAQLzrHpDHU8Ok+8
+Ixr812oPzHW2P8PUaOsA+9x8TsPfHb3UkSd+PO6xT+8px2PH7j3wKGmfd+XWXx9x7pC/+ZHsv++0
++/pAYSxy5yrXz7z06geKM6M9vSu+8/1rV778trNnVY0ly/PI/rx3v4z4z2t/+t+Qlie+BerpeTUJ
+WfEqIsEJvg5U2WtfBy3lrOKZboR8458DNfg9FDrQY707oZgoFT2cLdCFGMnYpDiIQxXRMHg2bOEO
+/1diQNLxcIZY453B0Oe2HuYvcN+LYNoi56kQwrCJCPwHFKMIOCf6sHpdLKEKZwXB011PU0ckU+22
+xkU1sQyNRIzaCb1oozXGsI2uklbjUrLF/EkxbljEEx6/ZTf0AVCBU5McHVO4R0dZkYmF7FP7KHcr
+wEVwkeNDmgYLuLlWzUxnonsZxjCFsPoZ0o2EWhjcHtdABPLsbwdTHad0hrtw9VF4rjtly4S4Kgz2
+8oKUHOC4WIlJ4qXMeCazmw5t5zKOyFGVLLwiqlAJw0OCKkJa/Nmn9nbLpaHsZAIEpSGXCbJusvGS
+QPvY7yqZx0n6coXs1OYH2dhKlyxzYKmL5j2bSf/JUQlwjNNsZzWpqb94Js+RWzNoU/aJQXKe7Jj8
+7B4PkQZQQraReRC72TtN6FCmMNRostyYOv/VUX9uj2IVhZZGdQlPljbvVTc7Xj3t+cqRphNY6fSc
+zEoYygqS7I3skyQwJ+pSUgotp+5sm/YU1k6FNlSF6BxqF+uG0K69M4wMbJgyLUhNUa5rVH+0aiQx
+9cjUNfWnAxXoL/HE1CpiVZBhcprvgBlPtErVaAldaVgRhb+4yi2I6zyrXgmKV6jOq6pv5es5/dpX
+l3rrfAC061qlmUSw/smIUCsm9TB7SJX+kntpnezuYDnYXCa2jAud6R2dGUjHOkytkdVr6JCaVFz/
+npasUVGtGeHqWK0mjrBbFWq6qHpXxbmVrVLRLR83KMYrCjapX+1qJ2kLW9Mal7NIuSlSt0tbrlH3
+k4pErS/ZZErhdta8ASWueS25V/EahXXcEictgaY6dVL0tus9rDQ/G1TgpkuoBqSiZa1L4L7xs6Qf
+1aG/xvnNAkNyvE0d76ZkizKmJbFyx2Uv3d730ljlM58HHK41GzlOCH9WwrVlqIUjNU/GVdfAhoJo
+YQ8mYlLKGL9rhaxgyYtH0KrVqfotqud2mVZzxlgpYFNwg/e5YDjW2ME5/i5QS1vIiQE4e5LVKCcD
+DF6JIa9br80ut+z30So3eMaJnHC9bopKIE8W/8U/DqhOL0ljnh12lqDkss2Sot2Q0peWkexuTYPc
+WNjumcdu5uqNtaXTo4bYzhlzaMQiXWHNHiXEy11v3RAN5/z++MprdrSg/xyvb5K60SJWLpIjutvn
+cTfCVTasz6z85qvGEJqVLvUby6lVRsu6dKzO9FbVzM62upagOn5xXucMaVv2eonJVnX88JnpB9K1
+Ycb275OTjVgby/OV4O51OVOdZbVQd7mi3HF/lc1qcfcOu3Me8pfnCt49+XWVU+5xf2n91+Et0Zhg
+Iq/YOF3r6mY70rikL+n+XVvE+lja1/HuxYpN5QTKuN/ZjjHDhWxYyVq6NuRr83OLW3DRWhnDHP/f
+JgcV++KSWom5FDfzIMlJRtzaWtk37/Yeo4vz81humI91d0P3nTsB5zzQn1uxts/8GAqOWMPeLlnF
+ffxmoZ/SszrveXs//W6Qc3isUK9qzKFLdXuXnLCY9jTQQxtr6V4V4tc8Yw6//nMWw3rdSJ+11t9X
+WbaXNuON+6E3zx5T+XVZm2BneeHvXu6Sm12P3sayzbV9ZBp3uLkP5jj0tJ68Ac64mov7IaKtziqH
+X1DliEM55Ssvs40Js2QehjsJG4vMjTI9wyIcO8kt/tLEK/TxUTQcrMitX2evLtdF6feHlx98f/ed
+vzL3O833Lud5032q3coZ8X09+qNvnvbls/3/04eIUKnru/Im93308054G7fe/L5evkiTb9vyUvvz
+uB8dwcmO/mZuc+C3B3lRFVyUtl9e5n1xElPNx3xON3tkVXNUR3nt5nvVN1CjNUeehG1FhGfg9HGI
+9GQrE2QSl3qJ13W4dX+l50fM1H69JHiERmQnhWsdqGem5Hnv1WQ/YULQ12Pd5n/v9n8tiHd8RW+q
+dFCtt4Ie5YHbs1rrZ03AF4Sd4lWNB2/uhWNR0loROFbt1kdWRzWJMmDkB3hf9nI7xHueFmdF13Wr
+lFFow01nSGsjdSVAl4Vnty2nd0drWH1GNkim13FKmBz/R4cNiIZAKIW1pkTXxW5nyCWiZoYS/wiH
+8edIhjiFvEV+jreIXWJ0audktsN5bqZxdph0f/WGAfglzOVfg9iJqMNNFdiCWxd5ZviHPmeCwaWC
+FyNIFuZUrViJlVh2smgeOliLshaKyMWKBseCDedkB1cpg2Nws6VpJVhzCTdhxshysSgqmkOJOPiJ
+kiRXpJVHblh/X4eMmchiigaN3QhXwscrd1hovHWNStN3ttKD7RiFdEZS5FiCoGeLvygfLWaHKlh1
+0diFjUSMlohcOAeJzEiPCVlEaaiGuGeQvEiLEdiP/piFu1hLJsM20hh2ElmFsNh/VjWOL4hT1MiR
+jdaIKQhrIGlzjkgzKmmRadFiKUlot6iGMf+pXvzGhJg1jnrWiBYzeSQ2S8UIhlx3ij3pcDJJIBe2
+WB9DkN2oRE+YkatniyI5kk3JVpykj9yolejVc3LkhJo3RfL4kzPYlSy5cuj4fD1ZkVhJeNC0iLIy
+RP52V1jnd8rYh1bDYwGZjGN5Yi+EdksHdb7YNXrDiVmnZQ4okC33Vj75lvnol5gIai3FmCQlfGI5
+fkhUlYkpmSJHQr+Hjor3mHtZivllRyfoU4a2j9ZFk0sJjAoZkGuHh//Dl8cYmcgmm6VJcu7EkYEk
+QbaZgpgpgX/pJSs5ea0FQR20XQqoYbH4mhE3jyY4TPQ0QqNEZRTZf9AJiOcIVb5Jl/CDj3z/WEau
+qVTYGVgT+URo0nt4iVpuGY8kqT7J6ZLraZkH2JoMyYyOSDUICZH1CZAWlYgvuZ20EThN9J3qiEIB
+BjKTKVvaCZ9CiZh9CYr9NDPnKXakqZ8t6Zn4hpu55HKROXz8iI1IuaH5iJYXAUtsuXP5CUjpOaGa
+uWv/mXacl5vDSKIHGaENGmappF6c+WuCOShe5ZQ7mpasdUBQhJLi96NbYk5rCKRPZJ3y9IK8+ZW6
+KaSjSKT6GKAKxD9CI5kieqNYCmWyeaA1qpY8NViqR0NVapzriF0d2kDPVKWxGaRlQ0yclW4eWn/w
+Nk9sWqRYsocIaJroSTmXlWJ3aZcuuoRh/4g/9cRKQJqoV0eggyGoMWqkUZc3h1pcdbqaatSG+Pak
+exp2Ocp1CdmmjAhEeWhEMzWnHbd6ALqZKSqqCOlEkHpkYcpFshcfk2Om5+RFtyqfkjprlHoXmFM9
+WUpHwdqcWoiqxdJTPBWOo7qpireA6DetToJRB6Z82DpVcieXneqpshooBkiXlgaTh/h8LsikVXI/
+AKqn3WqU8ZaVK1qs5qagQ6U3KCpRL/Snl+o4hmql6khToFOvSISvAkue9sRaQrmr0Zk5rKmcSmip
+MHqI9wax87Zav+h8z1ic5NKqMAhzG0tUgdaecmirUbl3CJhJHHU+5WavYqFbJ8eN90dTMf9ZYr0J
+s2ChXMhXljexZKcJXF9oijxrVnXIrnzkdk91eR57hYtkauy2r0TUVW9oo4DqtMLmWaDlsArbid6p
+aTrrFXBXV0sbr7CTlj5rsW6qWfaCdlKLQJ8JdlprslNCsTm0awDJtf4Zrm12nBbjgUGHdb/1s+A4
+rCLkmXULuBo4l4abQYvmksH2rIdTuF+qt+8IqA5ptkWit933pcAjuHFas+0qi90Xb+BjX4o1l6lK
+uoM7eF4Wjqbiprrztt+ncI56bi/Xj6p7g3smPTQ6ujShLskXTr77raNrkT76uVXTTckbqHGCu+6z
+vHlovGI1NtRbvZdGqdeLvRtmudzLFaL/+71rkzDiiyQbV77om75a0bvq+zbs64X/NJPxqaUwthSO
+VquBy6iuqzEkiH0rCzpptGr/S2YDzGfzu6XjSTthm6AmRbeZda3/6sBXAxWgimWcY0HTgi/clWdc
+tmaoxqCxZIPyFq1L9mcXbLognDDTRag32MBEpmSbo5H3gj3wZcLxRbzD5ZBDY3kgZl81ZYMmKVJA
+vKA7nFoufGM4uG0lXHT+d2YuK261h4RRzLRKzHzxR21RrGQULJXW+r5lRnMwyY4SlsHbykRlzGtb
+uGgwfGqxZMZu/FAPvKfQ1roMpsZNTGHYuWB6fMYhZ8dIHFS+k8WmtsC3u3VaDItLXFjGyHY0eMy0
+CZaVaJbIi3xD4Vdj3otIljrHj1vFIBXJzDR/YAaCIeXHZpzInHzF83fIILjFeyi99TVqNHOAHByt
+9wnC8vZoO+XKMkjCuTxorxfLdxYzcUnD3IZk2ds0hNy+HwhwytwVPJvMzQzAzBzNWbG9s3rJ1JzN
+2rzN3NzN3vzN4BzO4jzO5FzO5nzO6JzO6rzO7NzO7vzO8BzP8jzP9FzP9nzP+JzP+rzP/NzP/vzP
+AB3QAj3QBF3QBn3QCJ3QCr3QDN3QXRMQADs=
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://staticweb.archive.org/js/disclaim-element.js
+
+function getFrameArea(frame) {=0A=
+  if(frame.innerWidth) return frame.innerWidth * frame.innerHeight;=0A=
+  if(frame.document.documentElement && =
+frame.document.documentElement.clientHeight) return =
+frame.document.documentElement.clientWidth * =
+frame.document.documentElement.clientHeight;=0A=
+  if(frame.document.body) return frame.document.body.clientWidth * =
+frame.document.body.clientHeight;=0A=
+  return 0;=0A=
+}=0A=
+=0A=
+function isLargestFrame() {=0A=
+	if(top =3D=3D self) {=0A=
+		return true;=0A=
+	}=0A=
+	if(top.document.body.tagName =3D=3D "BODY") {=0A=
+		return false;=0A=
+	}=0A=
+	largestArea =3D 0;=0A=
+	largestFrame =3D null;=0A=
+	for(i=3D0;i<top.frames.length;i++) {=0A=
+		frame =3D top.frames[i];=0A=
+		area =3D getFrameArea(frame);=0A=
+		if(area > largestArea) {=0A=
+			largestFrame =3D frame;=0A=
+			largestArea =3D area;=0A=
+		}=0A=
+	}=0A=
+	return (self =3D=3D largestFrame);=0A=
+}=0A=
+=0A=
+function disclaimElement(element) {=0A=
+	if(isLargestFrame()) {=0A=
+		element.style.display=3D"block";=0A=
+		document.body.insertBefore(element,document.body.firstChild);=0A=
+	}=0A=
+}=0A=
+=0A=
+function disclaimToggle(largest, nonLargest) {=0A=
+	if(isLargestFrame()) {=0A=
+		largest.style.display=3D"block";=0A=
+		nonLargest.style.display=3D"none";=0A=
+	} else {=0A=
+		largest.style.display=3D"none";=0A=
+		nonLargest.style.display=3D"block";=0A=
+	}=0A=
+}=0A=
+=0A=
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://staticweb.archive.org/js/graph-calc.js
+
+function getEventX(event) {=0A=
+	var posx =3D 0;=0A=
+	if (event.pageX || event.pageY) {=0A=
+		posx =3D  event.pageX;=0A=
+	}=0A=
+	else if (event.clientX || event.clientY) 	{=0A=
+		posx =3D event.clientX + document.body.scrollLeft=0A=
+			+ document.documentElement.scrollLeft;=0A=
+	}=0A=
+	return posx;=0A=
+}=0A=
+function getElementX(obj) {=0A=
+	var x =3D 0;=0A=
+	if (obj.offsetParent) {=0A=
+		do {=0A=
+			x +=3D obj.offsetLeft;=0A=
+		} while (obj =3D obj.offsetParent);=0A=
+	}=0A=
+	return x;=0A=
+}=0A=
+function zeroPad(str,len) {=0A=
+	var i;=0A=
+	var pad =3D "";=0A=
+	var s =3D str.toString();=0A=
+	for(i=3Ds.length; i < len; i++) {=0A=
+		pad =3D "0".toString() + pad.toString();=0A=
+	}=0A=
+	return pad.toString() + s.toString();=0A=
+}=0A=
+=0A=
+function dateToTimestamp(date) {=0A=
+	return date.getFullYear() +=0A=
+		zeroPad(date.getMonth()+1,2) +=0A=
+		zeroPad(date.getDay()+1,2) +=0A=
+		zeroPad(date.getHours(),2) +=0A=
+		zeroPad(date.getMinutes(),2) +=0A=
+		zeroPad(date.getSeconds(),2);=0A=
+}=0A=
+=0A=
+function calcTimestamp(event,element,firstMS,lastMS) {=0A=
+	  var eventX =3D getEventX(event);=0A=
+	  var elementX =3D getElementX(element);=0A=
+	  var elementWidth =3D element.width;=0A=
+	  var msWidth =3D lastMS - firstMS;=0A=
+	  var x =3D eventX - elementX;=0A=
+	  var pct =3D x / elementWidth;=0A=
+	  var pctDate =3D pct * msWidth;=0A=
+	  var date =3D pctDate + firstMS;=0A=
+	  return dateToTimestamp(new Date(date));=0A=
+}=0A=
+
+------=_NextPart_000_0000_01CC2227.2BF72D70
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://staticweb.archive.org/jflot/jquery.min.js
+
+/*=0A=
+ * jQuery JavaScript Library v1.3.2=0A=
+ * http://jquery.com/=0A=
+ *=0A=
+ * Copyright (c) 2009 John Resig=0A=
+ * Dual licensed under the MIT and GPL licenses.=0A=
+ * http://docs.jquery.com/License=0A=
+ *=0A=
+ * Date: 2009-02-19 17:34:21 -0500 (Thu, 19 Feb 2009)=0A=
+ * Revision: 6246=0A=
+ */=0A=
+(function(){var =
+window=3Dthis,undefined,_jQuery=3Dwindow.jQuery,_$=3Dwindow.$,jQuery=3Dwi=
+ndow.jQuery=3Dwindow.$=3Dfunction(selector,context){return new =
+jQuery.fn.init(selector,context)},quickExpr=3D/^[^<]*(<(.|\s)+>)[^>]*$|^#=
+([\w-]+)$/,isSimple=3D/^.[^:#\[\.,]*$/;jQuery.fn=3DjQuery.prototype=3D{in=
+it:function(selector,context){selector=3Dselector||document;if(selector.n=
+odeType){this[0]=3Dselector;this.length=3D1;this.context=3Dselector;retur=
+n this}if(typeof selector=3D=3D=3D"string"){var =
+match=3DquickExpr.exec(selector);if(match&&(match[1]||!context)){if(match=
+[1]){selector=3DjQuery.clean([match[1]],context)}else{var =
+elem=3Ddocument.getElementById(match[3]);if(elem&&elem.id!=3Dmatch[3]){re=
+turn jQuery().find(selector)}var =
+ret=3DjQuery(elem||[]);ret.context=3Ddocument;ret.selector=3Dselector;ret=
+urn ret}}else{return =
+jQuery(context).find(selector)}}else{if(jQuery.isFunction(selector)){retu=
+rn =
+jQuery(document).ready(selector)}}if(selector.selector&&selector.context)=
+{this.selector=3Dselector.selector;this.context=3Dselector.context}return=
+ =
+this.setArray(jQuery.isArray(selector)?selector:jQuery.makeArray(selector=
+))},selector:"",jquery:"1.3.2",size:function(){return =
+this.length},get:function(num){return =
+num=3D=3D=3Dundefined?Array.prototype.slice.call(this):this[num]},pushSta=
+ck:function(elems,name,selector){var =
+ret=3DjQuery(elems);ret.prevObject=3Dthis;ret.context=3Dthis.context;if(n=
+ame=3D=3D=3D"find"){ret.selector=3Dthis.selector+(this.selector?" =
+":"")+selector}else{if(name){ret.selector=3Dthis.selector+"."+name+"("+se=
+lector+")"}}return =
+ret},setArray:function(elems){this.length=3D0;Array.prototype.push.apply(=
+this,elems);return this},each:function(callback,args){return =
+jQuery.each(this,callback,args)},index:function(elem){return =
+jQuery.inArray(elem&&elem.jquery?elem[0]:elem,this)},attr:function(name,v=
+alue,type){var options=3Dname;if(typeof =
+name=3D=3D=3D"string"){if(value=3D=3D=3Dundefined){return =
+this[0]&&jQuery[type||"attr"](this[0],name)}else{options=3D{};options[nam=
+e]=3Dvalue}}return this.each(function(i){for(name in =
+options){jQuery.attr(type?this.style:this,name,jQuery.prop(this,options[n=
+ame],type,i,name))}})},css:function(key,value){if((key=3D=3D"width"||key=3D=
+=3D"height")&&parseFloat(value)<0){value=3Dundefined}return =
+this.attr(key,value,"curCSS")},text:function(text){if(typeof =
+text!=3D=3D"object"&&text!=3Dnull){return =
+this.empty().append((this[0]&&this[0].ownerDocument||document).createText=
+Node(text))}var =
+ret=3D"";jQuery.each(text||this,function(){jQuery.each(this.childNodes,fu=
+nction(){if(this.nodeType!=3D8){ret+=3Dthis.nodeType!=3D1?this.nodeValue:=
+jQuery.fn.text([this])}})});return =
+ret},wrapAll:function(html){if(this[0]){var =
+wrap=3DjQuery(html,this[0].ownerDocument).clone();if(this[0].parentNode){=
+wrap.insertBefore(this[0])}wrap.map(function(){var =
+elem=3Dthis;while(elem.firstChild){elem=3Delem.firstChild}return =
+elem}).append(this)}return this},wrapInner:function(html){return =
+this.each(function(){jQuery(this).contents().wrapAll(html)})},wrap:functi=
+on(html){return =
+this.each(function(){jQuery(this).wrapAll(html)})},append:function(){retu=
+rn =
+this.domManip(arguments,true,function(elem){if(this.nodeType=3D=3D1){this=
+.appendChild(elem)}})},prepend:function(){return =
+this.domManip(arguments,true,function(elem){if(this.nodeType=3D=3D1){this=
+.insertBefore(elem,this.firstChild)}})},before:function(){return =
+this.domManip(arguments,false,function(elem){this.parentNode.insertBefore=
+(elem,this)})},after:function(){return =
+this.domManip(arguments,false,function(elem){this.parentNode.insertBefore=
+(elem,this.nextSibling)})},end:function(){return =
+this.prevObject||jQuery([])},push:[].push,sort:[].sort,splice:[].splice,f=
+ind:function(selector){if(this.length=3D=3D=3D1){var =
+ret=3Dthis.pushStack([],"find",selector);ret.length=3D0;jQuery.find(selec=
+tor,this[0],ret);return ret}else{return =
+this.pushStack(jQuery.unique(jQuery.map(this,function(elem){return =
+jQuery.find(selector,elem)})),"find",selector)}},clone:function(events){v=
+ar =
+ret=3Dthis.map(function(){if(!jQuery.support.noCloneEvent&&!jQuery.isXMLD=
+oc(this)){var html=3Dthis.outerHTML;if(!html){var =
+div=3Dthis.ownerDocument.createElement("div");div.appendChild(this.cloneN=
+ode(true));html=3Ddiv.innerHTML}return jQuery.clean([html.replace(/ =
+jQuery\d+=3D"(?:\d+|null)"/g,"").replace(/^\s*/,"")])[0]}else{return =
+this.cloneNode(true)}});if(events=3D=3D=3Dtrue){var =
+orig=3Dthis.find("*").andSelf(),i=3D0;ret.find("*").andSelf().each(functi=
+on(){if(this.nodeName!=3D=3Dorig[i].nodeName){return }var =
+events=3DjQuery.data(orig[i],"events");for(var type in events){for(var =
+handler in =
+events[type]){jQuery.event.add(this,type,events[type][handler],events[typ=
+e][handler].data)}}i++})}return ret},filter:function(selector){return =
+this.pushStack(jQuery.isFunction(selector)&&jQuery.grep(this,function(ele=
+m,i){return =
+selector.call(elem,i)})||jQuery.multiFilter(selector,jQuery.grep(this,fun=
+ction(elem){return =
+elem.nodeType=3D=3D=3D1})),"filter",selector)},closest:function(selector)=
+{var =
+pos=3DjQuery.expr.match.POS.test(selector)?jQuery(selector):null,closer=3D=
+0;return this.map(function(){var =
+cur=3Dthis;while(cur&&cur.ownerDocument){if(pos?pos.index(cur)>-1:jQuery(=
+cur).is(selector)){jQuery.data(cur,"closest",closer);return =
+cur}cur=3Dcur.parentNode;closer++}})},not:function(selector){if(typeof =
+selector=3D=3D=3D"string"){if(isSimple.test(selector)){return =
+this.pushStack(jQuery.multiFilter(selector,this,true),"not",selector)}els=
+e{selector=3DjQuery.multiFilter(selector,this)}}var =
+isArrayLike=3Dselector.length&&selector[selector.length-1]!=3D=3Dundefine=
+d&&!selector.nodeType;return this.filter(function(){return =
+isArrayLike?jQuery.inArray(this,selector)<0:this!=3Dselector})},add:funct=
+ion(selector){return =
+this.pushStack(jQuery.unique(jQuery.merge(this.get(),typeof =
+selector=3D=3D=3D"string"?jQuery(selector):jQuery.makeArray(selector))))}=
+,is:function(selector){return =
+!!selector&&jQuery.multiFilter(selector,this).length>0},hasClass:function=
+(selector){return =
+!!selector&&this.is("."+selector)},val:function(value){if(value=3D=3D=3Du=
+ndefined){var =
+elem=3Dthis[0];if(elem){if(jQuery.nodeName(elem,"option")){return(elem.at=
+tributes.value||{}).specified?elem.value:elem.text}if(jQuery.nodeName(ele=
+m,"select")){var =
+index=3Delem.selectedIndex,values=3D[],options=3Delem.options,one=3Delem.=
+type=3D=3D"select-one";if(index<0){return null}for(var =
+i=3Done?index:0,max=3Done?index+1:options.length;i<max;i++){var =
+option=3Doptions[i];if(option.selected){value=3DjQuery(option).val();if(o=
+ne){return value}values.push(value)}}return =
+values}return(elem.value||"").replace(/\r/g,"")}return =
+undefined}if(typeof value=3D=3D=3D"number"){value+=3D""}return =
+this.each(function(){if(this.nodeType!=3D1){return =
+}if(jQuery.isArray(value)&&/radio|checkbox/.test(this.type)){this.checked=
+=3D(jQuery.inArray(this.value,value)>=3D0||jQuery.inArray(this.name,value=
+)>=3D0)}else{if(jQuery.nodeName(this,"select")){var =
+values=3DjQuery.makeArray(value);jQuery("option",this).each(function(){th=
+is.selected=3D(jQuery.inArray(this.value,values)>=3D0||jQuery.inArray(thi=
+s.text,values)>=3D0)});if(!values.length){this.selectedIndex=3D-1}}else{t=
+his.value=3Dvalue}}})},html:function(value){return =
+value=3D=3D=3Dundefined?(this[0]?this[0].innerHTML.replace(/ =
+jQuery\d+=3D"(?:\d+|null)"/g,""):null):this.empty().append(value)},replac=
+eWith:function(value){return =
+this.after(value).remove()},eq:function(i){return =
+this.slice(i,+i+1)},slice:function(){return =
+this.pushStack(Array.prototype.slice.apply(this,arguments),"slice",Array.=
+prototype.slice.call(arguments).join(","))},map:function(callback){return=
+ this.pushStack(jQuery.map(this,function(elem,i){return =
+callback.call(elem,i,elem)}))},andSelf:function(){return =
+this.add(this.prevObject)},domManip:function(args,table,callback){if(this=
+[0]){var =
+fragment=3D(this[0].ownerDocument||this[0]).createDocumentFragment(),scri=
+pts=3DjQuery.clean(args,(this[0].ownerDocument||this[0]),fragment),first=3D=
+fragment.firstChild;if(first){for(var =
+i=3D0,l=3Dthis.length;i<l;i++){callback.call(root(this[i],first),this.len=
+gth>1||i>0?fragment.cloneNode(true):fragment)}}if(scripts){jQuery.each(sc=
+ripts,evalScript)}}return this;function root(elem,cur){return =
+table&&jQuery.nodeName(elem,"table")&&jQuery.nodeName(cur,"tr")?(elem.get=
+ElementsByTagName("tbody")[0]||elem.appendChild(elem.ownerDocument.create=
+Element("tbody"))):elem}}};jQuery.fn.init.prototype=3DjQuery.fn;function =
+evalScript(i,elem){if(elem.src){jQuery.ajax({url:elem.src,async:false,dat=
+aType:"script"})}else{jQuery.globalEval(elem.text||elem.textContent||elem=
+.innerHTML||"")}if(elem.parentNode){elem.parentNode.removeChild(elem)}}fu=
+nction now(){return +new =
+Date}jQuery.extend=3DjQuery.fn.extend=3Dfunction(){var =
+target=3Darguments[0]||{},i=3D1,length=3Darguments.length,deep=3Dfalse,op=
+tions;if(typeof =
+target=3D=3D=3D"boolean"){deep=3Dtarget;target=3Darguments[1]||{};i=3D2}i=
+f(typeof =
+target!=3D=3D"object"&&!jQuery.isFunction(target)){target=3D{}}if(length=3D=
+=3Di){target=3Dthis;--i}for(;i<length;i++){if((options=3Darguments[i])!=3D=
+null){for(var name in options){var =
+src=3Dtarget[name],copy=3Doptions[name];if(target=3D=3D=3Dcopy){continue}=
+if(deep&&copy&&typeof =
+copy=3D=3D=3D"object"&&!copy.nodeType){target[name]=3DjQuery.extend(deep,=
+src||(copy.length!=3Dnull?[]:{}),copy)}else{if(copy!=3D=3Dundefined){targ=
+et[name]=3Dcopy}}}}}return target};var =
+exclude=3D/z-?index|font-?weight|opacity|zoom|line-?height/i,defaultView=3D=
+document.defaultView||{},toString=3DObject.prototype.toString;jQuery.exte=
+nd({noConflict:function(deep){window.$=3D_$;if(deep){window.jQuery=3D_jQu=
+ery}return jQuery},isFunction:function(obj){return =
+toString.call(obj)=3D=3D=3D"[object =
+Function]"},isArray:function(obj){return =
+toString.call(obj)=3D=3D=3D"[object =
+Array]"},isXMLDoc:function(elem){return =
+elem.nodeType=3D=3D=3D9&&elem.documentElement.nodeName!=3D=3D"HTML"||!!el=
+em.ownerDocument&&jQuery.isXMLDoc(elem.ownerDocument)},globalEval:functio=
+n(data){if(data&&/\S/.test(data)){var =
+head=3Ddocument.getElementsByTagName("head")[0]||document.documentElement=
+,script=3Ddocument.createElement("script");script.type=3D"text/javascript=
+";if(jQuery.support.scriptEval){script.appendChild(document.createTextNod=
+e(data))}else{script.text=3Ddata}head.insertBefore(script,head.firstChild=
+);head.removeChild(script)}},nodeName:function(elem,name){return =
+elem.nodeName&&elem.nodeName.toUpperCase()=3D=3Dname.toUpperCase()},each:=
+function(object,callback,args){var =
+name,i=3D0,length=3Dobject.length;if(args){if(length=3D=3D=3Dundefined){f=
+or(name in =
+object){if(callback.apply(object[name],args)=3D=3D=3Dfalse){break}}}else{=
+for(;i<length;){if(callback.apply(object[i++],args)=3D=3D=3Dfalse){break}=
+}}}else{if(length=3D=3D=3Dundefined){for(name in =
+object){if(callback.call(object[name],name,object[name])=3D=3D=3Dfalse){b=
+reak}}}else{for(var =
+value=3Dobject[0];i<length&&callback.call(value,i,value)!=3D=3Dfalse;valu=
+e=3Dobject[++i]){}}}return =
+object},prop:function(elem,value,type,i,name){if(jQuery.isFunction(value)=
+){value=3Dvalue.call(elem,i)}return typeof =
+value=3D=3D=3D"number"&&type=3D=3D"curCSS"&&!exclude.test(name)?value+"px=
+":value},className:{add:function(elem,classNames){jQuery.each((classNames=
+||"").split(/\s+/),function(i,className){if(elem.nodeType=3D=3D1&&!jQuery=
+.className.has(elem.className,className)){elem.className+=3D(elem.classNa=
+me?" =
+":"")+className}})},remove:function(elem,classNames){if(elem.nodeType=3D=3D=
+1){elem.className=3DclassNames!=3D=3Dundefined?jQuery.grep(elem.className=
+.split(/\s+/),function(className){return =
+!jQuery.className.has(classNames,className)}).join(" =
+"):""}},has:function(elem,className){return =
+elem&&jQuery.inArray(className,(elem.className||elem).toString().split(/\=
+s+/))>-1}},swap:function(elem,options,callback){var old=3D{};for(var =
+name in =
+options){old[name]=3Delem.style[name];elem.style[name]=3Doptions[name]}ca=
+llback.call(elem);for(var name in =
+options){elem.style[name]=3Dold[name]}},css:function(elem,name,force,extr=
+a){if(name=3D=3D"width"||name=3D=3D"height"){var =
+val,props=3D{position:"absolute",visibility:"hidden",display:"block"},whi=
+ch=3Dname=3D=3D"width"?["Left","Right"]:["Top","Bottom"];function =
+getWH(){val=3Dname=3D=3D"width"?elem.offsetWidth:elem.offsetHeight;if(ext=
+ra=3D=3D=3D"border"){return =
+}jQuery.each(which,function(){if(!extra){val-=3DparseFloat(jQuery.curCSS(=
+elem,"padding"+this,true))||0}if(extra=3D=3D=3D"margin"){val+=3DparseFloa=
+t(jQuery.curCSS(elem,"margin"+this,true))||0}else{val-=3DparseFloat(jQuer=
+y.curCSS(elem,"border"+this+"Width",true))||0}})}if(elem.offsetWidth!=3D=3D=
+0){getWH()}else{jQuery.swap(elem,props,getWH)}return =
+Math.max(0,Math.round(val))}return =
+jQuery.curCSS(elem,name,force)},curCSS:function(elem,name,force){var =
+ret,style=3Delem.style;if(name=3D=3D"opacity"&&!jQuery.support.opacity){r=
+et=3DjQuery.attr(style,"opacity");return =
+ret=3D=3D""?"1":ret}if(name.match(/float/i)){name=3DstyleFloat}if(!force&=
+&style&&style[name]){ret=3Dstyle[name]}else{if(defaultView.getComputedSty=
+le){if(name.match(/float/i)){name=3D"float"}name=3Dname.replace(/([A-Z])/=
+g,"-$1").toLowerCase();var =
+computedStyle=3DdefaultView.getComputedStyle(elem,null);if(computedStyle)=
+{ret=3DcomputedStyle.getPropertyValue(name)}if(name=3D=3D"opacity"&&ret=3D=
+=3D""){ret=3D"1"}}else{if(elem.currentStyle){var =
+camelCase=3Dname.replace(/\-(\w)/g,function(all,letter){return =
+letter.toUpperCase()});ret=3Delem.currentStyle[name]||elem.currentStyle[c=
+amelCase];if(!/^\d+(px)?$/i.test(ret)&&/^\d/.test(ret)){var =
+left=3Dstyle.left,rsLeft=3Delem.runtimeStyle.left;elem.runtimeStyle.left=3D=
+elem.currentStyle.left;style.left=3Dret||0;ret=3Dstyle.pixelLeft+"px";sty=
+le.left=3Dleft;elem.runtimeStyle.left=3DrsLeft}}}}return =
+ret},clean:function(elems,context,fragment){context=3Dcontext||document;i=
+f(typeof =
+context.createElement=3D=3D=3D"undefined"){context=3Dcontext.ownerDocumen=
+t||context[0]&&context[0].ownerDocument||document}if(!fragment&&elems.len=
+gth=3D=3D=3D1&&typeof elems[0]=3D=3D=3D"string"){var =
+match=3D/^<(\w+)\s*\/?>$/.exec(elems[0]);if(match){return[context.createE=
+lement(match[1])]}}var =
+ret=3D[],scripts=3D[],div=3Dcontext.createElement("div");jQuery.each(elem=
+s,function(i,elem){if(typeof =
+elem=3D=3D=3D"number"){elem+=3D""}if(!elem){return }if(typeof =
+elem=3D=3D=3D"string"){elem=3Delem.replace(/(<(\w+)[^>]*?)\/>/g,function(=
+all,front,tag){return =
+tag.match(/^(abbr|br|col|img|input|link|meta|param|hr|area|embed)$/i)?all=
+:front+"></"+tag+">"});var =
+tags=3Delem.replace(/^\s+/,"").substring(0,10).toLowerCase();var =
+wrap=3D!tags.indexOf("<opt")&&[1,"<select =
+multiple=3D'multiple'>","</select>"]||!tags.indexOf("<leg")&&[1,"<fieldse=
+t>","</fieldset>"]||tags.match(/^<(thead|tbody|tfoot|colg|cap)/)&&[1,"<ta=
+ble>","</table>"]||!tags.indexOf("<tr")&&[2,"<table><tbody>","</tbody></t=
+able>"]||(!tags.indexOf("<td")||!tags.indexOf("<th"))&&[3,"<table><tbody>=
+<tr>","</tr></tbody></table>"]||!tags.indexOf("<col")&&[2,"<table><tbody>=
+</tbody><colgroup>","</colgroup></table>"]||!jQuery.support.htmlSerialize=
+&&[1,"div<div>","</div>"]||[0,"",""];div.innerHTML=3Dwrap[1]+elem+wrap[2]=
+;while(wrap[0]--){div=3Ddiv.lastChild}if(!jQuery.support.tbody){var =
+hasBody=3D/<tbody/i.test(elem),tbody=3D!tags.indexOf("<table")&&!hasBody?=
+div.firstChild&&div.firstChild.childNodes:wrap[1]=3D=3D"<table>"&&!hasBod=
+y?div.childNodes:[];for(var =
+j=3Dtbody.length-1;j>=3D0;--j){if(jQuery.nodeName(tbody[j],"tbody")&&!tbo=
+dy[j].childNodes.length){tbody[j].parentNode.removeChild(tbody[j])}}}if(!=
+jQuery.support.leadingWhitespace&&/^\s/.test(elem)){div.insertBefore(cont=
+ext.createTextNode(elem.match(/^\s*/)[0]),div.firstChild)}elem=3DjQuery.m=
+akeArray(div.childNodes)}if(elem.nodeType){ret.push(elem)}else{ret=3DjQue=
+ry.merge(ret,elem)}});if(fragment){for(var =
+i=3D0;ret[i];i++){if(jQuery.nodeName(ret[i],"script")&&(!ret[i].type||ret=
+[i].type.toLowerCase()=3D=3D=3D"text/javascript")){scripts.push(ret[i].pa=
+rentNode?ret[i].parentNode.removeChild(ret[i]):ret[i])}else{if(ret[i].nod=
+eType=3D=3D=3D1){ret.splice.apply(ret,[i+1,0].concat(jQuery.makeArray(ret=
+[i].getElementsByTagName("script"))))}fragment.appendChild(ret[i])}}retur=
+n scripts}return =
+ret},attr:function(elem,name,value){if(!elem||elem.nodeType=3D=3D3||elem.=
+nodeType=3D=3D8){return undefined}var =
+notxml=3D!jQuery.isXMLDoc(elem),set=3Dvalue!=3D=3Dundefined;name=3Dnotxml=
+&&jQuery.props[name]||name;if(elem.tagName){var =
+special=3D/href|src|style/.test(name);if(name=3D=3D"selected"&&elem.paren=
+tNode){elem.parentNode.selectedIndex}if(name in =
+elem&&notxml&&!special){if(set){if(name=3D=3D"type"&&jQuery.nodeName(elem=
+,"input")&&elem.parentNode){throw"type property can't be =
+changed"}elem[name]=3Dvalue}if(jQuery.nodeName(elem,"form")&&elem.getAttr=
+ibuteNode(name)){return =
+elem.getAttributeNode(name).nodeValue}if(name=3D=3D"tabIndex"){var =
+attributeNode=3Delem.getAttributeNode("tabIndex");return =
+attributeNode&&attributeNode.specified?attributeNode.value:elem.nodeName.=
+match(/(button|input|object|select|textarea)/i)?0:elem.nodeName.match(/^(=
+a|area)$/i)&&elem.href?0:undefined}return =
+elem[name]}if(!jQuery.support.style&&notxml&&name=3D=3D"style"){return =
+jQuery.attr(elem.style,"cssText",value)}if(set){elem.setAttribute(name,""=
++value)}var =
+attr=3D!jQuery.support.hrefNormalized&&notxml&&special?elem.getAttribute(=
+name,2):elem.getAttribute(name);return =
+attr=3D=3D=3Dnull?undefined:attr}if(!jQuery.support.opacity&&name=3D=3D"o=
+pacity"){if(set){elem.zoom=3D1;elem.filter=3D(elem.filter||"").replace(/a=
+lpha\([^)]*\)/,"")+(parseInt(value)+""=3D=3D"NaN"?"":"alpha(opacity=3D"+v=
+alue*100+")")}return =
+elem.filter&&elem.filter.indexOf("opacity=3D")>=3D0?(parseFloat(elem.filt=
+er.match(/opacity=3D([^)]*)/)[1])/100)+"":""}name=3Dname.replace(/-([a-z]=
+)/ig,function(all,letter){return =
+letter.toUpperCase()});if(set){elem[name]=3Dvalue}return =
+elem[name]},trim:function(text){return(text||"").replace(/^\s+|\s+$/g,"")=
+},makeArray:function(array){var ret=3D[];if(array!=3Dnull){var =
+i=3Darray.length;if(i=3D=3Dnull||typeof =
+array=3D=3D=3D"string"||jQuery.isFunction(array)||array.setInterval){ret[=
+0]=3Darray}else{while(i){ret[--i]=3Darray[i]}}}return =
+ret},inArray:function(elem,array){for(var =
+i=3D0,length=3Darray.length;i<length;i++){if(array[i]=3D=3D=3Delem){retur=
+n i}}return -1},merge:function(first,second){var =
+i=3D0,elem,pos=3Dfirst.length;if(!jQuery.support.getAll){while((elem=3Dse=
+cond[i++])!=3Dnull){if(elem.nodeType!=3D8){first[pos++]=3Delem}}}else{whi=
+le((elem=3Dsecond[i++])!=3Dnull){first[pos++]=3Delem}}return =
+first},unique:function(array){var ret=3D[],done=3D{};try{for(var =
+i=3D0,length=3Darray.length;i<length;i++){var =
+id=3DjQuery.data(array[i]);if(!done[id]){done[id]=3Dtrue;ret.push(array[i=
+])}}}catch(e){ret=3Darray}return =
+ret},grep:function(elems,callback,inv){var ret=3D[];for(var =
+i=3D0,length=3Delems.length;i<length;i++){if(!inv!=3D!callback(elems[i],i=
+)){ret.push(elems[i])}}return ret},map:function(elems,callback){var =
+ret=3D[];for(var i=3D0,length=3Delems.length;i<length;i++){var =
+value=3Dcallback(elems[i],i);if(value!=3Dnull){ret[ret.length]=3Dvalue}}r=
+eturn ret.concat.apply([],ret)}});var =
+userAgent=3Dnavigator.userAgent.toLowerCase();jQuery.browser=3D{version:(=
+userAgent.match(/.+(?:rv|it|ra|ie)[\/: =
+]([\d.]+)/)||[0,"0"])[1],safari:/webkit/.test(userAgent),opera:/opera/.te=
+st(userAgent),msie:/msie/.test(userAgent)&&!/opera/.test(userAgent),mozil=
+la:/mozilla/.test(userAgent)&&!/(compatible|webkit)/.test(userAgent)};jQu=
+ery.each({parent:function(elem){return =
+elem.parentNode},parents:function(elem){return =
+jQuery.dir(elem,"parentNode")},next:function(elem){return =
+jQuery.nth(elem,2,"nextSibling")},prev:function(elem){return =
+jQuery.nth(elem,2,"previousSibling")},nextAll:function(elem){return =
+jQuery.dir(elem,"nextSibling")},prevAll:function(elem){return =
+jQuery.dir(elem,"previousSibling")},siblings:function(elem){return =
+jQuery.sibling(elem.parentNode.firstChild,elem)},children:function(elem){=
+return jQuery.sibling(elem.firstChild)},contents:function(elem){return =
+jQuery.nodeName(elem,"iframe")?elem.contentDocument||elem.contentWindow.d=
+ocument:jQuery.makeArray(elem.childNodes)}},function(name,fn){jQuery.fn[n=
+ame]=3Dfunction(selector){var =
+ret=3DjQuery.map(this,fn);if(selector&&typeof =
+selector=3D=3D"string"){ret=3DjQuery.multiFilter(selector,ret)}return =
+this.pushStack(jQuery.unique(ret),name,selector)}});jQuery.each({appendTo=
+:"append",prependTo:"prepend",insertBefore:"before",insertAfter:"after",r=
+eplaceAll:"replaceWith"},function(name,original){jQuery.fn[name]=3Dfuncti=
+on(selector){var ret=3D[],insert=3DjQuery(selector);for(var =
+i=3D0,l=3Dinsert.length;i<l;i++){var =
+elems=3D(i>0?this.clone(true):this).get();jQuery.fn[original].apply(jQuer=
+y(insert[i]),elems);ret=3Dret.concat(elems)}return =
+this.pushStack(ret,name,selector)}});jQuery.each({removeAttr:function(nam=
+e){jQuery.attr(this,name,"");if(this.nodeType=3D=3D1){this.removeAttribut=
+e(name)}},addClass:function(classNames){jQuery.className.add(this,classNa=
+mes)},removeClass:function(classNames){jQuery.className.remove(this,class=
+Names)},toggleClass:function(classNames,state){if(typeof =
+state!=3D=3D"boolean"){state=3D!jQuery.className.has(this,classNames)}jQu=
+ery.className[state?"add":"remove"](this,classNames)},remove:function(sel=
+ector){if(!selector||jQuery.filter(selector,[this]).length){jQuery("*",th=
+is).add([this]).each(function(){jQuery.event.remove(this);jQuery.removeDa=
+ta(this)});if(this.parentNode){this.parentNode.removeChild(this)}}},empty=
+:function(){jQuery(this).children().remove();while(this.firstChild){this.=
+removeChild(this.firstChild)}}},function(name,fn){jQuery.fn[name]=3Dfunct=
+ion(){return this.each(fn,arguments)}});function num(elem,prop){return =
+elem[0]&&parseInt(jQuery.curCSS(elem[0],prop,true),10)||0}var =
+expando=3D"jQuery"+now(),uuid=3D0,windowData=3D{};jQuery.extend({cache:{}=
+,data:function(elem,name,data){elem=3Delem=3D=3Dwindow?windowData:elem;va=
+r =
+id=3Delem[expando];if(!id){id=3Delem[expando]=3D++uuid}if(name&&!jQuery.c=
+ache[id]){jQuery.cache[id]=3D{}}if(data!=3D=3Dundefined){jQuery.cache[id]=
+[name]=3Ddata}return =
+name?jQuery.cache[id][name]:id},removeData:function(elem,name){elem=3Dele=
+m=3D=3Dwindow?windowData:elem;var =
+id=3Delem[expando];if(name){if(jQuery.cache[id]){delete =
+jQuery.cache[id][name];name=3D"";for(name in =
+jQuery.cache[id]){break}if(!name){jQuery.removeData(elem)}}}else{try{dele=
+te =
+elem[expando]}catch(e){if(elem.removeAttribute){elem.removeAttribute(expa=
+ndo)}}delete =
+jQuery.cache[id]}},queue:function(elem,type,data){if(elem){type=3D(type||=
+"fx")+"queue";var =
+q=3DjQuery.data(elem,type);if(!q||jQuery.isArray(data)){q=3DjQuery.data(e=
+lem,type,jQuery.makeArray(data))}else{if(data){q.push(data)}}}return =
+q},dequeue:function(elem,type){var =
+queue=3DjQuery.queue(elem,type),fn=3Dqueue.shift();if(!type||type=3D=3D=3D=
+"fx"){fn=3Dqueue[0]}if(fn!=3D=3Dundefined){fn.call(elem)}}});jQuery.fn.ex=
+tend({data:function(key,value){var =
+parts=3Dkey.split(".");parts[1]=3Dparts[1]?"."+parts[1]:"";if(value=3D=3D=
+=3Dundefined){var =
+data=3Dthis.triggerHandler("getData"+parts[1]+"!",[parts[0]]);if(data=3D=3D=
+=3Dundefined&&this.length){data=3DjQuery.data(this[0],key)}return =
+data=3D=3D=3Dundefined&&parts[1]?this.data(parts[0]):data}else{return =
+this.trigger("setData"+parts[1]+"!",[parts[0],value]).each(function(){jQu=
+ery.data(this,key,value)})}},removeData:function(key){return =
+this.each(function(){jQuery.removeData(this,key)})},queue:function(type,d=
+ata){if(typeof =
+type!=3D=3D"string"){data=3Dtype;type=3D"fx"}if(data=3D=3D=3Dundefined){r=
+eturn jQuery.queue(this[0],type)}return this.each(function(){var =
+queue=3DjQuery.queue(this,type,data);if(type=3D=3D"fx"&&queue.length=3D=3D=
+1){queue[0].call(this)}})},dequeue:function(type){return =
+this.each(function(){jQuery.dequeue(this,type)})}});=0A=
+/*=0A=
+ * Sizzle CSS Selector Engine - v0.9.3=0A=
+ *  Copyright 2009, The Dojo Foundation=0A=
+ *  Released under the MIT, BSD, and GPL Licenses.=0A=
+ *  More information: http://sizzlejs.com/=0A=
+ */=0A=
+(function(){var =
+chunker=3D/((?:\((?:\([^()]+\)|[^()]+)+\)|\[(?:\[[^[\]]*\]|['"][^'"]*['"]=
+|[^[\]'"]+)+\]|\\.|[^ =
+>+~,(\[\\]+)+|[>+~])(\s*,\s*)?/g,done=3D0,toString=3DObject.prototype.toS=
+tring;var =
+Sizzle=3Dfunction(selector,context,results,seed){results=3Dresults||[];co=
+ntext=3Dcontext||document;if(context.nodeType!=3D=3D1&&context.nodeType!=3D=
+=3D9){return[]}if(!selector||typeof selector!=3D=3D"string"){return =
+results}var =
+parts=3D[],m,set,checkSet,check,mode,extra,prune=3Dtrue;chunker.lastIndex=
+=3D0;while((m=3Dchunker.exec(selector))!=3D=3Dnull){parts.push(m[1]);if(m=
+[2]){extra=3DRegExp.rightContext;break}}if(parts.length>1&&origPOS.exec(s=
+elector)){if(parts.length=3D=3D=3D2&&Expr.relative[parts[0]]){set=3DposPr=
+ocess(parts[0]+parts[1],context)}else{set=3DExpr.relative[parts[0]]?[cont=
+ext]:Sizzle(parts.shift(),context);while(parts.length){selector=3Dparts.s=
+hift();if(Expr.relative[selector]){selector+=3Dparts.shift()}set=3DposPro=
+cess(selector,set)}}}else{var =
+ret=3Dseed?{expr:parts.pop(),set:makeArray(seed)}:Sizzle.find(parts.pop()=
+,parts.length=3D=3D=3D1&&context.parentNode?context.parentNode:context,is=
+XML(context));set=3DSizzle.filter(ret.expr,ret.set);if(parts.length>0){ch=
+eckSet=3DmakeArray(set)}else{prune=3Dfalse}while(parts.length){var =
+cur=3Dparts.pop(),pop=3Dcur;if(!Expr.relative[cur]){cur=3D""}else{pop=3Dp=
+arts.pop()}if(pop=3D=3Dnull){pop=3Dcontext}Expr.relative[cur](checkSet,po=
+p,isXML(context))}}if(!checkSet){checkSet=3Dset}if(!checkSet){throw"Synta=
+x error, unrecognized expression: =
+"+(cur||selector)}if(toString.call(checkSet)=3D=3D=3D"[object =
+Array]"){if(!prune){results.push.apply(results,checkSet)}else{if(context.=
+nodeType=3D=3D=3D1){for(var =
+i=3D0;checkSet[i]!=3Dnull;i++){if(checkSet[i]&&(checkSet[i]=3D=3D=3Dtrue|=
+|checkSet[i].nodeType=3D=3D=3D1&&contains(context,checkSet[i]))){results.=
+push(set[i])}}}else{for(var =
+i=3D0;checkSet[i]!=3Dnull;i++){if(checkSet[i]&&checkSet[i].nodeType=3D=3D=
+=3D1){results.push(set[i])}}}}}else{makeArray(checkSet,results)}if(extra)=
+{Sizzle(extra,context,results,seed);if(sortOrder){hasDuplicate=3Dfalse;re=
+sults.sort(sortOrder);if(hasDuplicate){for(var =
+i=3D1;i<results.length;i++){if(results[i]=3D=3D=3Dresults[i-1]){results.s=
+plice(i--,1)}}}}}return =
+results};Sizzle.matches=3Dfunction(expr,set){return =
+Sizzle(expr,null,null,set)};Sizzle.find=3Dfunction(expr,context,isXML){va=
+r set,match;if(!expr){return[]}for(var =
+i=3D0,l=3DExpr.order.length;i<l;i++){var =
+type=3DExpr.order[i],match;if((match=3DExpr.match[type].exec(expr))){var =
+left=3DRegExp.leftContext;if(left.substr(left.length-1)!=3D=3D"\\"){match=
+[1]=3D(match[1]||"").replace(/\\/g,"");set=3DExpr.find[type](match,contex=
+t,isXML);if(set!=3Dnull){expr=3Dexpr.replace(Expr.match[type],"");break}}=
+}}if(!set){set=3Dcontext.getElementsByTagName("*")}return{set:set,expr:ex=
+pr}};Sizzle.filter=3Dfunction(expr,set,inplace,not){var =
+old=3Dexpr,result=3D[],curLoop=3Dset,match,anyFound,isXMLFilter=3Dset&&se=
+t[0]&&isXML(set[0]);while(expr&&set.length){for(var type in =
+Expr.filter){if((match=3DExpr.match[type].exec(expr))!=3Dnull){var =
+filter=3DExpr.filter[type],found,item;anyFound=3Dfalse;if(curLoop=3D=3Dre=
+sult){result=3D[]}if(Expr.preFilter[type]){match=3DExpr.preFilter[type](m=
+atch,curLoop,inplace,result,not,isXMLFilter);if(!match){anyFound=3Dfound=3D=
+true}else{if(match=3D=3D=3Dtrue){continue}}}if(match){for(var =
+i=3D0;(item=3DcurLoop[i])!=3Dnull;i++){if(item){found=3Dfilter(item,match=
+,i,curLoop);var =
+pass=3Dnot^!!found;if(inplace&&found!=3Dnull){if(pass){anyFound=3Dtrue}el=
+se{curLoop[i]=3Dfalse}}else{if(pass){result.push(item);anyFound=3Dtrue}}}=
+}}if(found!=3D=3Dundefined){if(!inplace){curLoop=3Dresult}expr=3Dexpr.rep=
+lace(Expr.match[type],"");if(!anyFound){return[]}break}}}if(expr=3D=3Dold=
+){if(anyFound=3D=3Dnull){throw"Syntax error, unrecognized expression: =
+"+expr}else{break}}old=3Dexpr}return curLoop};var =
+Expr=3DSizzle.selectors=3D{order:["ID","NAME","TAG"],match:{ID:/#((?:[\w\=
+u00c0-\uFFFF_-]|\\.)+)/,CLASS:/\.((?:[\w\u00c0-\uFFFF_-]|\\.)+)/,NAME:/\[=
+name=3D['"]*((?:[\w\u00c0-\uFFFF_-]|\\.)+)['"]*\]/,ATTR:/\[\s*((?:[\w\u00=
+c0-\uFFFF_-]|\\.)+)\s*(?:(\S?=3D)\s*(['"]*)(.*?)\3|)\s*\]/,TAG:/^((?:[\w\=
+u00c0-\uFFFF\*_-]|\\.)+)/,CHILD:/:(only|nth|last|first)-child(?:\((even|o=
+dd|[\dn+-]*)\))?/,POS:/:(nth|eq|gt|lt|first|last|even|odd)(?:\((\d*)\))?(=
+?=3D[^-]|$)/,PSEUDO:/:((?:[\w\u00c0-\uFFFF_-]|\\.)+)(?:\((['"]*)((?:\([^\=
+)]+\)|[^\2\(\)]*)+)\2\))?/},attrMap:{"class":"className","for":"htmlFor"}=
+,attrHandle:{href:function(elem){return =
+elem.getAttribute("href")}},relative:{"+":function(checkSet,part,isXML){v=
+ar isPartStr=3Dtypeof =
+part=3D=3D=3D"string",isTag=3DisPartStr&&!/\W/.test(part),isPartStrNotTag=
+=3DisPartStr&&!isTag;if(isTag&&!isXML){part=3Dpart.toUpperCase()}for(var =
+i=3D0,l=3DcheckSet.length,elem;i<l;i++){if((elem=3DcheckSet[i])){while((e=
+lem=3Delem.previousSibling)&&elem.nodeType!=3D=3D1){}checkSet[i]=3DisPart=
+StrNotTag||elem&&elem.nodeName=3D=3D=3Dpart?elem||false:elem=3D=3D=3Dpart=
+}}if(isPartStrNotTag){Sizzle.filter(part,checkSet,true)}},">":function(ch=
+eckSet,part,isXML){var isPartStr=3Dtypeof =
+part=3D=3D=3D"string";if(isPartStr&&!/\W/.test(part)){part=3DisXML?part:p=
+art.toUpperCase();for(var i=3D0,l=3DcheckSet.length;i<l;i++){var =
+elem=3DcheckSet[i];if(elem){var =
+parent=3Delem.parentNode;checkSet[i]=3Dparent.nodeName=3D=3D=3Dpart?paren=
+t:false}}}else{for(var i=3D0,l=3DcheckSet.length;i<l;i++){var =
+elem=3DcheckSet[i];if(elem){checkSet[i]=3DisPartStr?elem.parentNode:elem.=
+parentNode=3D=3D=3Dpart}}if(isPartStr){Sizzle.filter(part,checkSet,true)}=
+}},"":function(checkSet,part,isXML){var =
+doneName=3Ddone++,checkFn=3DdirCheck;if(!part.match(/\W/)){var =
+nodeCheck=3Dpart=3DisXML?part:part.toUpperCase();checkFn=3DdirNodeCheck}c=
+heckFn("parentNode",part,doneName,checkSet,nodeCheck,isXML)},"~":function=
+(checkSet,part,isXML){var doneName=3Ddone++,checkFn=3DdirCheck;if(typeof =
+part=3D=3D=3D"string"&&!part.match(/\W/)){var =
+nodeCheck=3Dpart=3DisXML?part:part.toUpperCase();checkFn=3DdirNodeCheck}c=
+heckFn("previousSibling",part,doneName,checkSet,nodeCheck,isXML)}},find:{=
+ID:function(match,context,isXML){if(typeof =
+context.getElementById!=3D=3D"undefined"&&!isXML){var =
+m=3Dcontext.getElementById(match[1]);return =
+m?[m]:[]}},NAME:function(match,context,isXML){if(typeof =
+context.getElementsByName!=3D=3D"undefined"){var =
+ret=3D[],results=3Dcontext.getElementsByName(match[1]);for(var =
+i=3D0,l=3Dresults.length;i<l;i++){if(results[i].getAttribute("name")=3D=3D=
+=3Dmatch[1]){ret.push(results[i])}}return =
+ret.length=3D=3D=3D0?null:ret}},TAG:function(match,context){return =
+context.getElementsByTagName(match[1])}},preFilter:{CLASS:function(match,=
+curLoop,inplace,result,not,isXML){match=3D" =
+"+match[1].replace(/\\/g,"")+" ";if(isXML){return match}for(var =
+i=3D0,elem;(elem=3DcurLoop[i])!=3Dnull;i++){if(elem){if(not^(elem.classNa=
+me&&(" "+elem.className+" =
+").indexOf(match)>=3D0)){if(!inplace){result.push(elem)}}else{if(inplace)=
+{curLoop[i]=3Dfalse}}}}return false},ID:function(match){return =
+match[1].replace(/\\/g,"")},TAG:function(match,curLoop){for(var =
+i=3D0;curLoop[i]=3D=3D=3Dfalse;i++){}return =
+curLoop[i]&&isXML(curLoop[i])?match[1]:match[1].toUpperCase()},CHILD:func=
+tion(match){if(match[1]=3D=3D"nth"){var =
+test=3D/(-?)(\d*)n((?:\+|-)?\d*)/.exec(match[2]=3D=3D"even"&&"2n"||match[=
+2]=3D=3D"odd"&&"2n+1"||!/\D/.test(match[2])&&"0n+"+match[2]||match[2]);ma=
+tch[2]=3D(test[1]+(test[2]||1))-0;match[3]=3Dtest[3]-0}match[0]=3Ddone++;=
+return match},ATTR:function(match,curLoop,inplace,result,not,isXML){var =
+name=3Dmatch[1].replace(/\\/g,"");if(!isXML&&Expr.attrMap[name]){match[1]=
+=3DExpr.attrMap[name]}if(match[2]=3D=3D=3D"~=3D"){match[4]=3D" =
+"+match[4]+" "}return =
+match},PSEUDO:function(match,curLoop,inplace,result,not){if(match[1]=3D=3D=
+=3D"not"){if(match[3].match(chunker).length>1||/^\w/.test(match[3])){matc=
+h[3]=3DSizzle(match[3],null,null,curLoop)}else{var =
+ret=3DSizzle.filter(match[3],curLoop,inplace,true^not);if(!inplace){resul=
+t.push.apply(result,ret)}return =
+false}}else{if(Expr.match.POS.test(match[0])||Expr.match.CHILD.test(match=
+[0])){return true}}return =
+match},POS:function(match){match.unshift(true);return =
+match}},filters:{enabled:function(elem){return =
+elem.disabled=3D=3D=3Dfalse&&elem.type!=3D=3D"hidden"},disabled:function(=
+elem){return elem.disabled=3D=3D=3Dtrue},checked:function(elem){return =
+elem.checked=3D=3D=3Dtrue},selected:function(elem){elem.parentNode.select=
+edIndex;return elem.selected=3D=3D=3Dtrue},parent:function(elem){return =
+!!elem.firstChild},empty:function(elem){return =
+!elem.firstChild},has:function(elem,i,match){return =
+!!Sizzle(match[3],elem).length},header:function(elem){return/h\d/i.test(e=
+lem.nodeName)},text:function(elem){return"text"=3D=3D=3Delem.type},radio:=
+function(elem){return"radio"=3D=3D=3Delem.type},checkbox:function(elem){r=
+eturn"checkbox"=3D=3D=3Delem.type},file:function(elem){return"file"=3D=3D=
+=3Delem.type},password:function(elem){return"password"=3D=3D=3Delem.type}=
+,submit:function(elem){return"submit"=3D=3D=3Delem.type},image:function(e=
+lem){return"image"=3D=3D=3Delem.type},reset:function(elem){return"reset"=3D=
+=3D=3Delem.type},button:function(elem){return"button"=3D=3D=3Delem.type||=
+elem.nodeName.toUpperCase()=3D=3D=3D"BUTTON"},input:function(elem){return=
+/input|select|textarea|button/i.test(elem.nodeName)}},setFilters:{first:f=
+unction(elem,i){return =
+i=3D=3D=3D0},last:function(elem,i,match,array){return =
+i=3D=3D=3Darray.length-1},even:function(elem,i){return =
+i%2=3D=3D=3D0},odd:function(elem,i){return =
+i%2=3D=3D=3D1},lt:function(elem,i,match){return =
+i<match[3]-0},gt:function(elem,i,match){return =
+i>match[3]-0},nth:function(elem,i,match){return =
+match[3]-0=3D=3Di},eq:function(elem,i,match){return =
+match[3]-0=3D=3Di}},filter:{PSEUDO:function(elem,match,i,array){var =
+name=3Dmatch[1],filter=3DExpr.filters[name];if(filter){return =
+filter(elem,i,match,array)}else{if(name=3D=3D=3D"contains"){return(elem.t=
+extContent||elem.innerText||"").indexOf(match[3])>=3D0}else{if(name=3D=3D=
+=3D"not"){var not=3Dmatch[3];for(var =
+i=3D0,l=3Dnot.length;i<l;i++){if(not[i]=3D=3D=3Delem){return =
+false}}return true}}}},CHILD:function(elem,match){var =
+type=3Dmatch[1],node=3Delem;switch(type){case"only":case"first":while(nod=
+e=3Dnode.previousSibling){if(node.nodeType=3D=3D=3D1){return =
+false}}if(type=3D=3D"first"){return =
+true}node=3Delem;case"last":while(node=3Dnode.nextSibling){if(node.nodeTy=
+pe=3D=3D=3D1){return false}}return true;case"nth":var =
+first=3Dmatch[2],last=3Dmatch[3];if(first=3D=3D1&&last=3D=3D0){return =
+true}var =
+doneName=3Dmatch[0],parent=3Delem.parentNode;if(parent&&(parent.sizcache!=
+=3D=3DdoneName||!elem.nodeIndex)){var =
+count=3D0;for(node=3Dparent.firstChild;node;node=3Dnode.nextSibling){if(n=
+ode.nodeType=3D=3D=3D1){node.nodeIndex=3D++count}}parent.sizcache=3DdoneN=
+ame}var diff=3Delem.nodeIndex-last;if(first=3D=3D0){return =
+diff=3D=3D0}else{return(diff%first=3D=3D0&&diff/first>=3D0)}}},ID:functio=
+n(elem,match){return =
+elem.nodeType=3D=3D=3D1&&elem.getAttribute("id")=3D=3D=3Dmatch},TAG:funct=
+ion(elem,match){return(match=3D=3D=3D"*"&&elem.nodeType=3D=3D=3D1)||elem.=
+nodeName=3D=3D=3Dmatch},CLASS:function(elem,match){return(" =
+"+(elem.className||elem.getAttribute("class"))+" =
+").indexOf(match)>-1},ATTR:function(elem,match){var =
+name=3Dmatch[1],result=3DExpr.attrHandle[name]?Expr.attrHandle[name](elem=
+):elem[name]!=3Dnull?elem[name]:elem.getAttribute(name),value=3Dresult+""=
+,type=3Dmatch[2],check=3Dmatch[4];return =
+result=3D=3Dnull?type=3D=3D=3D"!=3D":type=3D=3D=3D"=3D"?value=3D=3D=3Dche=
+ck:type=3D=3D=3D"*=3D"?value.indexOf(check)>=3D0:type=3D=3D=3D"~=3D"?(" =
+"+value+" =
+").indexOf(check)>=3D0:!check?value&&result!=3D=3Dfalse:type=3D=3D=3D"!=3D=
+"?value!=3Dcheck:type=3D=3D=3D"^=3D"?value.indexOf(check)=3D=3D=3D0:type=3D=
+=3D=3D"$=3D"?value.substr(value.length-check.length)=3D=3D=3Dcheck:type=3D=
+=3D=3D"|=3D"?value=3D=3D=3Dcheck||value.substr(0,check.length+1)=3D=3D=3D=
+check+"-":false},POS:function(elem,match,i,array){var =
+name=3Dmatch[2],filter=3DExpr.setFilters[name];if(filter){return =
+filter(elem,i,match,array)}}}};var origPOS=3DExpr.match.POS;for(var type =
+in =
+Expr.match){Expr.match[type]=3DRegExp(Expr.match[type].source+/(?![^\[]*\=
+])(?![^\(]*\))/.source)}var =
+makeArray=3Dfunction(array,results){array=3DArray.prototype.slice.call(ar=
+ray);if(results){results.push.apply(results,array);return results}return =
+array};try{Array.prototype.slice.call(document.documentElement.childNodes=
+)}catch(e){makeArray=3Dfunction(array,results){var =
+ret=3Dresults||[];if(toString.call(array)=3D=3D=3D"[object =
+Array]"){Array.prototype.push.apply(ret,array)}else{if(typeof =
+array.length=3D=3D=3D"number"){for(var =
+i=3D0,l=3Darray.length;i<l;i++){ret.push(array[i])}}else{for(var =
+i=3D0;array[i];i++){ret.push(array[i])}}}return ret}}var =
+sortOrder;if(document.documentElement.compareDocumentPosition){sortOrder=3D=
+function(a,b){var =
+ret=3Da.compareDocumentPosition(b)&4?-1:a=3D=3D=3Db?0:1;if(ret=3D=3D=3D0)=
+{hasDuplicate=3Dtrue}return ret}}else{if("sourceIndex" in =
+document.documentElement){sortOrder=3Dfunction(a,b){var =
+ret=3Da.sourceIndex-b.sourceIndex;if(ret=3D=3D=3D0){hasDuplicate=3Dtrue}r=
+eturn ret}}else{if(document.createRange){sortOrder=3Dfunction(a,b){var =
+aRange=3Da.ownerDocument.createRange(),bRange=3Db.ownerDocument.createRan=
+ge();aRange.selectNode(a);aRange.collapse(true);bRange.selectNode(b);bRan=
+ge.collapse(true);var =
+ret=3DaRange.compareBoundaryPoints(Range.START_TO_END,bRange);if(ret=3D=3D=
+=3D0){hasDuplicate=3Dtrue}return ret}}}}(function(){var =
+form=3Ddocument.createElement("form"),id=3D"script"+(new =
+Date).getTime();form.innerHTML=3D"<input name=3D'"+id+"'/>";var =
+root=3Ddocument.documentElement;root.insertBefore(form,root.firstChild);i=
+f(!!document.getElementById(id)){Expr.find.ID=3Dfunction(match,context,is=
+XML){if(typeof context.getElementById!=3D=3D"undefined"&&!isXML){var =
+m=3Dcontext.getElementById(match[1]);return =
+m?m.id=3D=3D=3Dmatch[1]||typeof =
+m.getAttributeNode!=3D=3D"undefined"&&m.getAttributeNode("id").nodeValue=3D=
+=3D=3Dmatch[1]?[m]:undefined:[]}};Expr.filter.ID=3Dfunction(elem,match){v=
+ar node=3Dtypeof =
+elem.getAttributeNode!=3D=3D"undefined"&&elem.getAttributeNode("id");retu=
+rn =
+elem.nodeType=3D=3D=3D1&&node&&node.nodeValue=3D=3D=3Dmatch}}root.removeC=
+hild(form)})();(function(){var =
+div=3Ddocument.createElement("div");div.appendChild(document.createCommen=
+t(""));if(div.getElementsByTagName("*").length>0){Expr.find.TAG=3Dfunctio=
+n(match,context){var =
+results=3Dcontext.getElementsByTagName(match[1]);if(match[1]=3D=3D=3D"*")=
+{var tmp=3D[];for(var =
+i=3D0;results[i];i++){if(results[i].nodeType=3D=3D=3D1){tmp.push(results[=
+i])}}results=3Dtmp}return results}}div.innerHTML=3D"<a =
+href=3D'#'></a>";if(div.firstChild&&typeof =
+div.firstChild.getAttribute!=3D=3D"undefined"&&div.firstChild.getAttribut=
+e("href")!=3D=3D"#"){Expr.attrHandle.href=3Dfunction(elem){return =
+elem.getAttribute("href",2)}}})();if(document.querySelectorAll){(function=
+(){var =
+oldSizzle=3DSizzle,div=3Ddocument.createElement("div");div.innerHTML=3D"<=
+p =
+class=3D'TEST'></p>";if(div.querySelectorAll&&div.querySelectorAll(".TEST=
+").length=3D=3D=3D0){return =
+}Sizzle=3Dfunction(query,context,extra,seed){context=3Dcontext||document;=
+if(!seed&&context.nodeType=3D=3D=3D9&&!isXML(context)){try{return =
+makeArray(context.querySelectorAll(query),extra)}catch(e){}}return =
+oldSizzle(query,context,extra,seed)};Sizzle.find=3DoldSizzle.find;Sizzle.=
+filter=3DoldSizzle.filter;Sizzle.selectors=3DoldSizzle.selectors;Sizzle.m=
+atches=3DoldSizzle.matches})()}if(document.getElementsByClassName&&docume=
+nt.documentElement.getElementsByClassName){(function(){var =
+div=3Ddocument.createElement("div");div.innerHTML=3D"<div class=3D'test =
+e'></div><div =
+class=3D'test'></div>";if(div.getElementsByClassName("e").length=3D=3D=3D=
+0){return =
+}div.lastChild.className=3D"e";if(div.getElementsByClassName("e").length=3D=
+=3D=3D1){return =
+}Expr.order.splice(1,0,"CLASS");Expr.find.CLASS=3Dfunction(match,context,=
+isXML){if(typeof =
+context.getElementsByClassName!=3D=3D"undefined"&&!isXML){return =
+context.getElementsByClassName(match[1])}}})()}function =
+dirNodeCheck(dir,cur,doneName,checkSet,nodeCheck,isXML){var =
+sibDir=3Ddir=3D=3D"previousSibling"&&!isXML;for(var =
+i=3D0,l=3DcheckSet.length;i<l;i++){var =
+elem=3DcheckSet[i];if(elem){if(sibDir&&elem.nodeType=3D=3D=3D1){elem.sizc=
+ache=3DdoneName;elem.sizset=3Di}elem=3Delem[dir];var =
+match=3Dfalse;while(elem){if(elem.sizcache=3D=3D=3DdoneName){match=3Dchec=
+kSet[elem.sizset];break}if(elem.nodeType=3D=3D=3D1&&!isXML){elem.sizcache=
+=3DdoneName;elem.sizset=3Di}if(elem.nodeName=3D=3D=3Dcur){match=3Delem;br=
+eak}elem=3Delem[dir]}checkSet[i]=3Dmatch}}}function =
+dirCheck(dir,cur,doneName,checkSet,nodeCheck,isXML){var =
+sibDir=3Ddir=3D=3D"previousSibling"&&!isXML;for(var =
+i=3D0,l=3DcheckSet.length;i<l;i++){var =
+elem=3DcheckSet[i];if(elem){if(sibDir&&elem.nodeType=3D=3D=3D1){elem.sizc=
+ache=3DdoneName;elem.sizset=3Di}elem=3Delem[dir];var =
+match=3Dfalse;while(elem){if(elem.sizcache=3D=3D=3DdoneName){match=3Dchec=
+kSet[elem.sizset];break}if(elem.nodeType=3D=3D=3D1){if(!isXML){elem.sizca=
+che=3DdoneName;elem.sizset=3Di}if(typeof =
+cur!=3D=3D"string"){if(elem=3D=3D=3Dcur){match=3Dtrue;break}}else{if(Sizz=
+le.filter(cur,[elem]).length>0){match=3Delem;break}}}elem=3Delem[dir]}che=
+ckSet[i]=3Dmatch}}}var =
+contains=3Ddocument.compareDocumentPosition?function(a,b){return =
+a.compareDocumentPosition(b)&16}:function(a,b){return =
+a!=3D=3Db&&(a.contains?a.contains(b):true)};var =
+isXML=3Dfunction(elem){return =
+elem.nodeType=3D=3D=3D9&&elem.documentElement.nodeName!=3D=3D"HTML"||!!el=
+em.ownerDocument&&isXML(elem.ownerDocument)};var =
+posProcess=3Dfunction(selector,context){var =
+tmpSet=3D[],later=3D"",match,root=3Dcontext.nodeType?[context]:context;wh=
+ile((match=3DExpr.match.PSEUDO.exec(selector))){later+=3Dmatch[0];selecto=
+r=3Dselector.replace(Expr.match.PSEUDO,"")}selector=3DExpr.relative[selec=
+tor]?selector+"*":selector;for(var =
+i=3D0,l=3Droot.length;i<l;i++){Sizzle(selector,root[i],tmpSet)}return =
+Sizzle.filter(later,tmpSet)};jQuery.find=3DSizzle;jQuery.filter=3DSizzle.=
+filter;jQuery.expr=3DSizzle.selectors;jQuery.expr[":"]=3DjQuery.expr.filt=
+ers;Sizzle.selectors.filters.hidden=3Dfunction(elem){return =
+elem.offsetWidth=3D=3D=3D0||elem.offsetHeight=3D=3D=3D0};Sizzle.selectors=
+.filters.visible=3Dfunction(elem){return =
+elem.offsetWidth>0||elem.offsetHeight>0};Sizzle.selectors.filters.animate=
+d=3Dfunction(elem){return jQuery.grep(jQuery.timers,function(fn){return =
+elem=3D=3D=3Dfn.elem}).length};jQuery.multiFilter=3Dfunction(expr,elems,n=
+ot){if(not){expr=3D":not("+expr+")"}return =
+Sizzle.matches(expr,elems)};jQuery.dir=3Dfunction(elem,dir){var =
+matched=3D[],cur=3Delem[dir];while(cur&&cur!=3Ddocument){if(cur.nodeType=3D=
+=3D1){matched.push(cur)}cur=3Dcur[dir]}return =
+matched};jQuery.nth=3Dfunction(cur,result,dir,elem){result=3Dresult||1;va=
+r =
+num=3D0;for(;cur;cur=3Dcur[dir]){if(cur.nodeType=3D=3D1&&++num=3D=3Dresul=
+t){break}}return cur};jQuery.sibling=3Dfunction(n,elem){var =
+r=3D[];for(;n;n=3Dn.nextSibling){if(n.nodeType=3D=3D1&&n!=3Delem){r.push(=
+n)}}return r};return =
+;window.Sizzle=3DSizzle})();jQuery.event=3D{add:function(elem,types,handl=
+er,data){if(elem.nodeType=3D=3D3||elem.nodeType=3D=3D8){return =
+}if(elem.setInterval&&elem!=3Dwindow){elem=3Dwindow}if(!handler.guid){han=
+dler.guid=3Dthis.guid++}if(data!=3D=3Dundefined){var =
+fn=3Dhandler;handler=3Dthis.proxy(fn);handler.data=3Ddata}var =
+events=3DjQuery.data(elem,"events")||jQuery.data(elem,"events",{}),handle=
+=3DjQuery.data(elem,"handle")||jQuery.data(elem,"handle",function(){retur=
+n typeof =
+jQuery!=3D=3D"undefined"&&!jQuery.event.triggered?jQuery.event.handle.app=
+ly(arguments.callee.elem,arguments):undefined});handle.elem=3Delem;jQuery=
+.each(types.split(/\s+/),function(index,type){var =
+namespaces=3Dtype.split(".");type=3Dnamespaces.shift();handler.type=3Dnam=
+espaces.slice().sort().join(".");var =
+handlers=3Devents[type];if(jQuery.event.specialAll[type]){jQuery.event.sp=
+ecialAll[type].setup.call(elem,data,namespaces)}if(!handlers){handlers=3D=
+events[type]=3D{};if(!jQuery.event.special[type]||jQuery.event.special[ty=
+pe].setup.call(elem,data,namespaces)=3D=3D=3Dfalse){if(elem.addEventListe=
+ner){elem.addEventListener(type,handle,false)}else{if(elem.attachEvent){e=
+lem.attachEvent("on"+type,handle)}}}}handlers[handler.guid]=3Dhandler;jQu=
+ery.event.global[type]=3Dtrue});elem=3Dnull},guid:1,global:{},remove:func=
+tion(elem,types,handler){if(elem.nodeType=3D=3D3||elem.nodeType=3D=3D8){r=
+eturn }var =
+events=3DjQuery.data(elem,"events"),ret,index;if(events){if(types=3D=3D=3D=
+undefined||(typeof =
+types=3D=3D=3D"string"&&types.charAt(0)=3D=3D".")){for(var type in =
+events){this.remove(elem,type+(types||""))}}else{if(types.type){handler=3D=
+types.handler;types=3Dtypes.type}jQuery.each(types.split(/\s+/),function(=
+index,type){var =
+namespaces=3Dtype.split(".");type=3Dnamespaces.shift();var =
+namespace=3DRegExp("(^|\\.)"+namespaces.slice().sort().join(".*\\.")+"(\\=
+.|$)");if(events[type]){if(handler){delete =
+events[type][handler.guid]}else{for(var handle in =
+events[type]){if(namespace.test(events[type][handle].type)){delete =
+events[type][handle]}}}if(jQuery.event.specialAll[type]){jQuery.event.spe=
+cialAll[type].teardown.call(elem,namespaces)}for(ret in =
+events[type]){break}if(!ret){if(!jQuery.event.special[type]||jQuery.event=
+.special[type].teardown.call(elem,namespaces)=3D=3D=3Dfalse){if(elem.remo=
+veEventListener){elem.removeEventListener(type,jQuery.data(elem,"handle")=
+,false)}else{if(elem.detachEvent){elem.detachEvent("on"+type,jQuery.data(=
+elem,"handle"))}}}ret=3Dnull;delete events[type]}}})}for(ret in =
+events){break}if(!ret){var =
+handle=3DjQuery.data(elem,"handle");if(handle){handle.elem=3Dnull}jQuery.=
+removeData(elem,"events");jQuery.removeData(elem,"handle")}}},trigger:fun=
+ction(event,data,elem,bubbling){var =
+type=3Devent.type||event;if(!bubbling){event=3Dtypeof =
+event=3D=3D=3D"object"?event[expando]?event:jQuery.extend(jQuery.Event(ty=
+pe),event):jQuery.Event(type);if(type.indexOf("!")>=3D0){event.type=3Dtyp=
+e=3Dtype.slice(0,-1);event.exclusive=3Dtrue}if(!elem){event.stopPropagati=
+on();if(this.global[type]){jQuery.each(jQuery.cache,function(){if(this.ev=
+ents&&this.events[type]){jQuery.event.trigger(event,data,this.handle.elem=
+)}})}}if(!elem||elem.nodeType=3D=3D3||elem.nodeType=3D=3D8){return =
+undefined}event.result=3Dundefined;event.target=3Delem;data=3DjQuery.make=
+Array(data);data.unshift(event)}event.currentTarget=3Delem;var =
+handle=3DjQuery.data(elem,"handle");if(handle){handle.apply(elem,data)}if=
+((!elem[type]||(jQuery.nodeName(elem,"a")&&type=3D=3D"click"))&&elem["on"=
++type]&&elem["on"+type].apply(elem,data)=3D=3D=3Dfalse){event.result=3Dfa=
+lse}if(!bubbling&&elem[type]&&!event.isDefaultPrevented()&&!(jQuery.nodeN=
+ame(elem,"a")&&type=3D=3D"click")){this.triggered=3Dtrue;try{elem[type]()=
+}catch(e){}}this.triggered=3Dfalse;if(!event.isPropagationStopped()){var =
+parent=3Delem.parentNode||elem.ownerDocument;if(parent){jQuery.event.trig=
+ger(event,data,parent,true)}}},handle:function(event){var =
+all,handlers;event=3Darguments[0]=3DjQuery.event.fix(event||window.event)=
+;event.currentTarget=3Dthis;var =
+namespaces=3Devent.type.split(".");event.type=3Dnamespaces.shift();all=3D=
+!namespaces.length&&!event.exclusive;var =
+namespace=3DRegExp("(^|\\.)"+namespaces.slice().sort().join(".*\\.")+"(\\=
+.|$)");handlers=3D(jQuery.data(this,"events")||{})[event.type];for(var j =
+in handlers){var =
+handler=3Dhandlers[j];if(all||namespace.test(handler.type)){event.handler=
+=3Dhandler;event.data=3Dhandler.data;var =
+ret=3Dhandler.apply(this,arguments);if(ret!=3D=3Dundefined){event.result=3D=
+ret;if(ret=3D=3D=3Dfalse){event.preventDefault();event.stopPropagation()}=
+}if(event.isImmediatePropagationStopped()){break}}}},props:"altKey =
+attrChange attrName bubbles button cancelable charCode clientX clientY =
+ctrlKey currentTarget data detail eventPhase fromElement handler keyCode =
+metaKey newValue originalTarget pageX pageY prevValue relatedNode =
+relatedTarget screenX screenY shiftKey srcElement target toElement view =
+wheelDelta which".split(" =
+"),fix:function(event){if(event[expando]){return event}var =
+originalEvent=3Devent;event=3DjQuery.Event(originalEvent);for(var =
+i=3Dthis.props.length,prop;i;){prop=3Dthis.props[--i];event[prop]=3Dorigi=
+nalEvent[prop]}if(!event.target){event.target=3Devent.srcElement||documen=
+t}if(event.target.nodeType=3D=3D3){event.target=3Devent.target.parentNode=
+}if(!event.relatedTarget&&event.fromElement){event.relatedTarget=3Devent.=
+fromElement=3D=3Devent.target?event.toElement:event.fromElement}if(event.=
+pageX=3D=3Dnull&&event.clientX!=3Dnull){var =
+doc=3Ddocument.documentElement,body=3Ddocument.body;event.pageX=3Devent.c=
+lientX+(doc&&doc.scrollLeft||body&&body.scrollLeft||0)-(doc.clientLeft||0=
+);event.pageY=3Devent.clientY+(doc&&doc.scrollTop||body&&body.scrollTop||=
+0)-(doc.clientTop||0)}if(!event.which&&((event.charCode||event.charCode=3D=
+=3D=3D0)?event.charCode:event.keyCode)){event.which=3Devent.charCode||eve=
+nt.keyCode}if(!event.metaKey&&event.ctrlKey){event.metaKey=3Devent.ctrlKe=
+y}if(!event.which&&event.button){event.which=3D(event.button&1?1:(event.b=
+utton&2?3:(event.button&4?2:0)))}return =
+event},proxy:function(fn,proxy){proxy=3Dproxy||function(){return =
+fn.apply(this,arguments)};proxy.guid=3Dfn.guid=3Dfn.guid||proxy.guid||thi=
+s.guid++;return =
+proxy},special:{ready:{setup:bindReady,teardown:function(){}}},specialAll=
+:{live:{setup:function(selector,namespaces){jQuery.event.add(this,namespa=
+ces[0],liveHandler)},teardown:function(namespaces){if(namespaces.length){=
+var =
+remove=3D0,name=3DRegExp("(^|\\.)"+namespaces[0]+"(\\.|$)");jQuery.each((=
+jQuery.data(this,"events").live||{}),function(){if(name.test(this.type)){=
+remove++}});if(remove<1){jQuery.event.remove(this,namespaces[0],liveHandl=
+er)}}}}}};jQuery.Event=3Dfunction(src){if(!this.preventDefault){return =
+new =
+jQuery.Event(src)}if(src&&src.type){this.originalEvent=3Dsrc;this.type=3D=
+src.type}else{this.type=3Dsrc}this.timeStamp=3Dnow();this[expando]=3Dtrue=
+};function returnFalse(){return false}function returnTrue(){return =
+true}jQuery.Event.prototype=3D{preventDefault:function(){this.isDefaultPr=
+evented=3DreturnTrue;var e=3Dthis.originalEvent;if(!e){return =
+}if(e.preventDefault){e.preventDefault()}e.returnValue=3Dfalse},stopPropa=
+gation:function(){this.isPropagationStopped=3DreturnTrue;var =
+e=3Dthis.originalEvent;if(!e){return =
+}if(e.stopPropagation){e.stopPropagation()}e.cancelBubble=3Dtrue},stopImm=
+ediatePropagation:function(){this.isImmediatePropagationStopped=3DreturnT=
+rue;this.stopPropagation()},isDefaultPrevented:returnFalse,isPropagationS=
+topped:returnFalse,isImmediatePropagationStopped:returnFalse};var =
+withinElement=3Dfunction(event){var =
+parent=3Devent.relatedTarget;while(parent&&parent!=3Dthis){try{parent=3Dp=
+arent.parentNode}catch(e){parent=3Dthis}}if(parent!=3Dthis){event.type=3D=
+event.data;jQuery.event.handle.apply(this,arguments)}};jQuery.each({mouse=
+over:"mouseenter",mouseout:"mouseleave"},function(orig,fix){jQuery.event.=
+special[fix]=3D{setup:function(){jQuery.event.add(this,orig,withinElement=
+,fix)},teardown:function(){jQuery.event.remove(this,orig,withinElement)}}=
+});jQuery.fn.extend({bind:function(type,data,fn){return =
+type=3D=3D"unload"?this.one(type,data,fn):this.each(function(){jQuery.eve=
+nt.add(this,type,fn||data,fn&&data)})},one:function(type,data,fn){var =
+one=3DjQuery.event.proxy(fn||data,function(event){jQuery(this).unbind(eve=
+nt,one);return(fn||data).apply(this,arguments)});return =
+this.each(function(){jQuery.event.add(this,type,one,fn&&data)})},unbind:f=
+unction(type,fn){return =
+this.each(function(){jQuery.event.remove(this,type,fn)})},trigger:functio=
+n(type,data){return =
+this.each(function(){jQuery.event.trigger(type,data,this)})},triggerHandl=
+er:function(type,data){if(this[0]){var =
+event=3DjQuery.Event(type);event.preventDefault();event.stopPropagation()=
+;jQuery.event.trigger(event,data,this[0]);return =
+event.result}},toggle:function(fn){var =
+args=3Darguments,i=3D1;while(i<args.length){jQuery.event.proxy(fn,args[i+=
++])}return =
+this.click(jQuery.event.proxy(fn,function(event){this.lastToggle=3D(this.=
+lastToggle||0)%i;event.preventDefault();return =
+args[this.lastToggle++].apply(this,arguments)||false}))},hover:function(f=
+nOver,fnOut){return =
+this.mouseenter(fnOver).mouseleave(fnOut)},ready:function(fn){bindReady()=
+;if(jQuery.isReady){fn.call(document,jQuery)}else{jQuery.readyList.push(f=
+n)}return this},live:function(type,fn){var =
+proxy=3DjQuery.event.proxy(fn);proxy.guid+=3Dthis.selector+type;jQuery(do=
+cument).bind(liveConvert(type,this.selector),this.selector,proxy);return =
+this},die:function(type,fn){jQuery(document).unbind(liveConvert(type,this=
+.selector),fn?{guid:fn.guid+this.selector+type}:null);return =
+this}});function liveHandler(event){var =
+check=3DRegExp("(^|\\.)"+event.type+"(\\.|$)"),stop=3Dtrue,elems=3D[];jQu=
+ery.each(jQuery.data(this,"events").live||[],function(i,fn){if(check.test=
+(fn.type)){var =
+elem=3DjQuery(event.target).closest(fn.data)[0];if(elem){elems.push({elem=
+:elem,fn:fn})}}});elems.sort(function(a,b){return =
+jQuery.data(a.elem,"closest")-jQuery.data(b.elem,"closest")});jQuery.each=
+(elems,function(){if(this.fn.call(this.elem,event,this.fn.data)=3D=3D=3Df=
+alse){return(stop=3Dfalse)}});return stop}function =
+liveConvert(type,selector){return["live",type,selector.replace(/\./g,"`")=
+.replace(/ =
+/g,"|")].join(".")}jQuery.extend({isReady:false,readyList:[],ready:functi=
+on(){if(!jQuery.isReady){jQuery.isReady=3Dtrue;if(jQuery.readyList){jQuer=
+y.each(jQuery.readyList,function(){this.call(document,jQuery)});jQuery.re=
+adyList=3Dnull}jQuery(document).triggerHandler("ready")}}});var =
+readyBound=3Dfalse;function bindReady(){if(readyBound){return =
+}readyBound=3Dtrue;if(document.addEventListener){document.addEventListene=
+r("DOMContentLoaded",function(){document.removeEventListener("DOMContentL=
+oaded",arguments.callee,false);jQuery.ready()},false)}else{if(document.at=
+tachEvent){document.attachEvent("onreadystatechange",function(){if(docume=
+nt.readyState=3D=3D=3D"complete"){document.detachEvent("onreadystatechang=
+e",arguments.callee);jQuery.ready()}});if(document.documentElement.doScro=
+ll&&window=3D=3Dwindow.top){(function(){if(jQuery.isReady){return =
+}try{document.documentElement.doScroll("left")}catch(error){setTimeout(ar=
+guments.callee,0);return =
+}jQuery.ready()})()}}}jQuery.event.add(window,"load",jQuery.ready)}jQuery=
+.each(("blur,focus,load,resize,scroll,unload,click,dblclick,mousedown,mou=
+seup,mousemove,mouseover,mouseout,mouseenter,mouseleave,change,select,sub=
+mit,keydown,keypress,keyup,error").split(","),function(i,name){jQuery.fn[=
+name]=3Dfunction(fn){return =
+fn?this.bind(name,fn):this.trigger(name)}});jQuery(window).bind("unload",=
+function(){for(var id in =
+jQuery.cache){if(id!=3D1&&jQuery.cache[id].handle){jQuery.event.remove(jQ=
+uery.cache[id].handle.elem)}}});(function(){jQuery.support=3D{};var =
+root=3Ddocument.documentElement,script=3Ddocument.createElement("script")=
+,div=3Ddocument.createElement("div"),id=3D"script"+(new =
+Date).getTime();div.style.display=3D"none";div.innerHTML=3D'   =
+<link/><table></table><a href=3D"/a" =
+style=3D"color:red;float:left;opacity:.5;">a</a><select><option>text</opt=
+ion></select><object><param/></object>';var =
+all=3Ddiv.getElementsByTagName("*"),a=3Ddiv.getElementsByTagName("a")[0];=
+if(!all||!all.length||!a){return =
+}jQuery.support=3D{leadingWhitespace:div.firstChild.nodeType=3D=3D3,tbody=
+:!div.getElementsByTagName("tbody").length,objectAll:!!div.getElementsByT=
+agName("object")[0].getElementsByTagName("*").length,htmlSerialize:!!div.=
+getElementsByTagName("link").length,style:/red/.test(a.getAttribute("styl=
+e")),hrefNormalized:a.getAttribute("href")=3D=3D=3D"/a",opacity:a.style.o=
+pacity=3D=3D=3D"0.5",cssFloat:!!a.style.cssFloat,scriptEval:false,noClone=
+Event:true,boxModel:null};script.type=3D"text/javascript";try{script.appe=
+ndChild(document.createTextNode("window."+id+"=3D1;"))}catch(e){}root.ins=
+ertBefore(script,root.firstChild);if(window[id]){jQuery.support.scriptEva=
+l=3Dtrue;delete =
+window[id]}root.removeChild(script);if(div.attachEvent&&div.fireEvent){di=
+v.attachEvent("onclick",function(){jQuery.support.noCloneEvent=3Dfalse;di=
+v.detachEvent("onclick",arguments.callee)});div.cloneNode(true).fireEvent=
+("onclick")}jQuery(function(){var =
+div=3Ddocument.createElement("div");div.style.width=3Ddiv.style.paddingLe=
+ft=3D"1px";document.body.appendChild(div);jQuery.boxModel=3DjQuery.suppor=
+t.boxModel=3Ddiv.offsetWidth=3D=3D=3D2;document.body.removeChild(div).sty=
+le.display=3D"none"})})();var =
+styleFloat=3DjQuery.support.cssFloat?"cssFloat":"styleFloat";jQuery.props=
+=3D{"for":"htmlFor","class":"className","float":styleFloat,cssFloat:style=
+Float,styleFloat:styleFloat,readonly:"readOnly",maxlength:"maxLength",cel=
+lspacing:"cellSpacing",rowspan:"rowSpan",tabindex:"tabIndex"};jQuery.fn.e=
+xtend({_load:jQuery.fn.load,load:function(url,params,callback){if(typeof =
+url!=3D=3D"string"){return this._load(url)}var off=3Durl.indexOf(" =
+");if(off>=3D0){var =
+selector=3Durl.slice(off,url.length);url=3Durl.slice(0,off)}var =
+type=3D"GET";if(params){if(jQuery.isFunction(params)){callback=3Dparams;p=
+arams=3Dnull}else{if(typeof =
+params=3D=3D=3D"object"){params=3DjQuery.param(params);type=3D"POST"}}}va=
+r =
+self=3Dthis;jQuery.ajax({url:url,type:type,dataType:"html",data:params,co=
+mplete:function(res,status){if(status=3D=3D"success"||status=3D=3D"notmod=
+ified"){self.html(selector?jQuery("<div/>").append(res.responseText.repla=
+ce(/<script(.|\s)*?\/script>/g,"")).find(selector):res.responseText)}if(c=
+allback){self.each(callback,[res.responseText,status,res])}}});return =
+this},serialize:function(){return =
+jQuery.param(this.serializeArray())},serializeArray:function(){return =
+this.map(function(){return =
+this.elements?jQuery.makeArray(this.elements):this}).filter(function(){re=
+turn =
+this.name&&!this.disabled&&(this.checked||/select|textarea/i.test(this.no=
+deName)||/text|hidden|password|search/i.test(this.type))}).map(function(i=
+,elem){var val=3DjQuery(this).val();return =
+val=3D=3Dnull?null:jQuery.isArray(val)?jQuery.map(val,function(val,i){ret=
+urn{name:elem.name,value:val}}):{name:elem.name,value:val}}).get()}});jQu=
+ery.each("ajaxStart,ajaxStop,ajaxComplete,ajaxError,ajaxSuccess,ajaxSend"=
+.split(","),function(i,o){jQuery.fn[o]=3Dfunction(f){return =
+this.bind(o,f)}});var =
+jsc=3Dnow();jQuery.extend({get:function(url,data,callback,type){if(jQuery=
+.isFunction(data)){callback=3Ddata;data=3Dnull}return =
+jQuery.ajax({type:"GET",url:url,data:data,success:callback,dataType:type}=
+)},getScript:function(url,callback){return =
+jQuery.get(url,null,callback,"script")},getJSON:function(url,data,callbac=
+k){return =
+jQuery.get(url,data,callback,"json")},post:function(url,data,callback,typ=
+e){if(jQuery.isFunction(data)){callback=3Ddata;data=3D{}}return =
+jQuery.ajax({type:"POST",url:url,data:data,success:callback,dataType:type=
+})},ajaxSetup:function(settings){jQuery.extend(jQuery.ajaxSettings,settin=
+gs)},ajaxSettings:{url:location.href,global:true,type:"GET",contentType:"=
+application/x-www-form-urlencoded",processData:true,async:true,xhr:functi=
+on(){return window.ActiveXObject?new =
+ActiveXObject("Microsoft.XMLHTTP"):new =
+XMLHttpRequest()},accepts:{xml:"application/xml, =
+text/xml",html:"text/html",script:"text/javascript, =
+application/javascript",json:"application/json, =
+text/javascript",text:"text/plain",_default:"*/*"}},lastModified:{},ajax:=
+function(s){s=3DjQuery.extend(true,s,jQuery.extend(true,{},jQuery.ajaxSet=
+tings,s));var =
+jsonp,jsre=3D/=3D\?(&|$)/g,status,data,type=3Ds.type.toUpperCase();if(s.d=
+ata&&s.processData&&typeof =
+s.data!=3D=3D"string"){s.data=3DjQuery.param(s.data)}if(s.dataType=3D=3D"=
+jsonp"){if(type=3D=3D"GET"){if(!s.url.match(jsre)){s.url+=3D(s.url.match(=
+/\?/)?"&":"?")+(s.jsonp||"callback")+"=3D?"}}else{if(!s.data||!s.data.mat=
+ch(jsre)){s.data=3D(s.data?s.data+"&":"")+(s.jsonp||"callback")+"=3D?"}}s=
+.dataType=3D"json"}if(s.dataType=3D=3D"json"&&(s.data&&s.data.match(jsre)=
+||s.url.match(jsre))){jsonp=3D"jsonp"+jsc++;if(s.data){s.data=3D(s.data+"=
+").replace(jsre,"=3D"+jsonp+"$1")}s.url=3Ds.url.replace(jsre,"=3D"+jsonp+=
+"$1");s.dataType=3D"script";window[jsonp]=3Dfunction(tmp){data=3Dtmp;succ=
+ess();complete();window[jsonp]=3Dundefined;try{delete =
+window[jsonp]}catch(e){}if(head){head.removeChild(script)}}}if(s.dataType=
+=3D=3D"script"&&s.cache=3D=3Dnull){s.cache=3Dfalse}if(s.cache=3D=3D=3Dfal=
+se&&type=3D=3D"GET"){var ts=3Dnow();var =
+ret=3Ds.url.replace(/(\?|&)_=3D.*?(&|$)/,"$1_=3D"+ts+"$2");s.url=3Dret+((=
+ret=3D=3Ds.url)?(s.url.match(/\?/)?"&":"?")+"_=3D"+ts:"")}if(s.data&&type=
+=3D=3D"GET"){s.url+=3D(s.url.match(/\?/)?"&":"?")+s.data;s.data=3Dnull}if=
+(s.global&&!jQuery.active++){jQuery.event.trigger("ajaxStart")}var =
+parts=3D/^(\w+:)?\/\/([^\/?#]+)/.exec(s.url);if(s.dataType=3D=3D"script"&=
+&type=3D=3D"GET"&&parts&&(parts[1]&&parts[1]!=3Dlocation.protocol||parts[=
+2]!=3Dlocation.host)){var =
+head=3Ddocument.getElementsByTagName("head")[0];var =
+script=3Ddocument.createElement("script");script.src=3Ds.url;if(s.scriptC=
+harset){script.charset=3Ds.scriptCharset}if(!jsonp){var =
+done=3Dfalse;script.onload=3Dscript.onreadystatechange=3Dfunction(){if(!d=
+one&&(!this.readyState||this.readyState=3D=3D"loaded"||this.readyState=3D=
+=3D"complete")){done=3Dtrue;success();complete();script.onload=3Dscript.o=
+nreadystatechange=3Dnull;head.removeChild(script)}}}head.appendChild(scri=
+pt);return undefined}var requestDone=3Dfalse;var =
+xhr=3Ds.xhr();if(s.username){xhr.open(type,s.url,s.async,s.username,s.pas=
+sword)}else{xhr.open(type,s.url,s.async)}try{if(s.data){xhr.setRequestHea=
+der("Content-Type",s.contentType)}if(s.ifModified){xhr.setRequestHeader("=
+If-Modified-Since",jQuery.lastModified[s.url]||"Thu, 01 Jan 1970 =
+00:00:00 =
+GMT")}xhr.setRequestHeader("X-Requested-With","XMLHttpRequest");xhr.setRe=
+questHeader("Accept",s.dataType&&s.accepts[s.dataType]?s.accepts[s.dataTy=
+pe]+", =
+*/*":s.accepts._default)}catch(e){}if(s.beforeSend&&s.beforeSend(xhr,s)=3D=
+=3D=3Dfalse){if(s.global&&!--jQuery.active){jQuery.event.trigger("ajaxSto=
+p")}xhr.abort();return =
+false}if(s.global){jQuery.event.trigger("ajaxSend",[xhr,s])}var =
+onreadystatechange=3Dfunction(isTimeout){if(xhr.readyState=3D=3D0){if(iva=
+l){clearInterval(ival);ival=3Dnull;if(s.global&&!--jQuery.active){jQuery.=
+event.trigger("ajaxStop")}}}else{if(!requestDone&&xhr&&(xhr.readyState=3D=
+=3D4||isTimeout=3D=3D"timeout")){requestDone=3Dtrue;if(ival){clearInterva=
+l(ival);ival=3Dnull}status=3DisTimeout=3D=3D"timeout"?"timeout":!jQuery.h=
+ttpSuccess(xhr)?"error":s.ifModified&&jQuery.httpNotModified(xhr,s.url)?"=
+notmodified":"success";if(status=3D=3D"success"){try{data=3DjQuery.httpDa=
+ta(xhr,s.dataType,s)}catch(e){status=3D"parsererror"}}if(status=3D=3D"suc=
+cess"){var =
+modRes;try{modRes=3Dxhr.getResponseHeader("Last-Modified")}catch(e){}if(s=
+.ifModified&&modRes){jQuery.lastModified[s.url]=3DmodRes}if(!jsonp){succe=
+ss()}}else{jQuery.handleError(s,xhr,status)}complete();if(isTimeout){xhr.=
+abort()}if(s.async){xhr=3Dnull}}}};if(s.async){var =
+ival=3DsetInterval(onreadystatechange,13);if(s.timeout>0){setTimeout(func=
+tion(){if(xhr&&!requestDone){onreadystatechange("timeout")}},s.timeout)}}=
+try{xhr.send(s.data)}catch(e){jQuery.handleError(s,xhr,null,e)}if(!s.asyn=
+c){onreadystatechange()}function =
+success(){if(s.success){s.success(data,status)}if(s.global){jQuery.event.=
+trigger("ajaxSuccess",[xhr,s])}}function =
+complete(){if(s.complete){s.complete(xhr,status)}if(s.global){jQuery.even=
+t.trigger("ajaxComplete",[xhr,s])}if(s.global&&!--jQuery.active){jQuery.e=
+vent.trigger("ajaxStop")}}return =
+xhr},handleError:function(s,xhr,status,e){if(s.error){s.error(xhr,status,=
+e)}if(s.global){jQuery.event.trigger("ajaxError",[xhr,s,e])}},active:0,ht=
+tpSuccess:function(xhr){try{return =
+!xhr.status&&location.protocol=3D=3D"file:"||(xhr.status>=3D200&&xhr.stat=
+us<300)||xhr.status=3D=3D304||xhr.status=3D=3D1223}catch(e){}return =
+false},httpNotModified:function(xhr,url){try{var =
+xhrRes=3Dxhr.getResponseHeader("Last-Modified");return =
+xhr.status=3D=3D304||xhrRes=3D=3DjQuery.lastModified[url]}catch(e){}retur=
+n false},httpData:function(xhr,type,s){var =
+ct=3Dxhr.getResponseHeader("content-type"),xml=3Dtype=3D=3D"xml"||!type&&=
+ct&&ct.indexOf("xml")>=3D0,data=3Dxml?xhr.responseXML:xhr.responseText;if=
+(xml&&data.documentElement.tagName=3D=3D"parsererror"){throw"parsererror"=
+}if(s&&s.dataFilter){data=3Ds.dataFilter(data,type)}if(typeof =
+data=3D=3D=3D"string"){if(type=3D=3D"script"){jQuery.globalEval(data)}if(=
+type=3D=3D"json"){data=3Dwindow["eval"]("("+data+")")}}return =
+data},param:function(a){var s=3D[];function =
+add(key,value){s[s.length]=3DencodeURIComponent(key)+"=3D"+encodeURICompo=
+nent(value)}if(jQuery.isArray(a)||a.jquery){jQuery.each(a,function(){add(=
+this.name,this.value)})}else{for(var j in =
+a){if(jQuery.isArray(a[j])){jQuery.each(a[j],function(){add(j,this)})}els=
+e{add(j,jQuery.isFunction(a[j])?a[j]():a[j])}}}return =
+s.join("&").replace(/%20/g,"+")}});var =
+elemdisplay=3D{},timerId,fxAttrs=3D[["height","marginTop","marginBottom",=
+"paddingTop","paddingBottom"],["width","marginLeft","marginRight","paddin=
+gLeft","paddingRight"],["opacity"]];function genFx(type,num){var =
+obj=3D{};jQuery.each(fxAttrs.concat.apply([],fxAttrs.slice(0,num)),functi=
+on(){obj[this]=3Dtype});return =
+obj}jQuery.fn.extend({show:function(speed,callback){if(speed){return =
+this.animate(genFx("show",3),speed,callback)}else{for(var =
+i=3D0,l=3Dthis.length;i<l;i++){var =
+old=3DjQuery.data(this[i],"olddisplay");this[i].style.display=3Dold||"";i=
+f(jQuery.css(this[i],"display")=3D=3D=3D"none"){var =
+tagName=3Dthis[i].tagName,display;if(elemdisplay[tagName]){display=3Delem=
+display[tagName]}else{var elem=3DjQuery("<"+tagName+" =
+/>").appendTo("body");display=3Delem.css("display");if(display=3D=3D=3D"n=
+one"){display=3D"block"}elem.remove();elemdisplay[tagName]=3Ddisplay}jQue=
+ry.data(this[i],"olddisplay",display)}}for(var =
+i=3D0,l=3Dthis.length;i<l;i++){this[i].style.display=3DjQuery.data(this[i=
+],"olddisplay")||""}return =
+this}},hide:function(speed,callback){if(speed){return =
+this.animate(genFx("hide",3),speed,callback)}else{for(var =
+i=3D0,l=3Dthis.length;i<l;i++){var =
+old=3DjQuery.data(this[i],"olddisplay");if(!old&&old!=3D=3D"none"){jQuery=
+.data(this[i],"olddisplay",jQuery.css(this[i],"display"))}}for(var =
+i=3D0,l=3Dthis.length;i<l;i++){this[i].style.display=3D"none"}return =
+this}},_toggle:jQuery.fn.toggle,toggle:function(fn,fn2){var =
+bool=3Dtypeof fn=3D=3D=3D"boolean";return =
+jQuery.isFunction(fn)&&jQuery.isFunction(fn2)?this._toggle.apply(this,arg=
+uments):fn=3D=3Dnull||bool?this.each(function(){var =
+state=3Dbool?fn:jQuery(this).is(":hidden");jQuery(this)[state?"show":"hid=
+e"]()}):this.animate(genFx("toggle",3),fn,fn2)},fadeTo:function(speed,to,=
+callback){return =
+this.animate({opacity:to},speed,callback)},animate:function(prop,speed,ea=
+sing,callback){var optall=3DjQuery.speed(speed,easing,callback);return =
+this[optall.queue=3D=3D=3Dfalse?"each":"queue"](function(){var =
+opt=3DjQuery.extend({},optall),p,hidden=3Dthis.nodeType=3D=3D1&&jQuery(th=
+is).is(":hidden"),self=3Dthis;for(p in =
+prop){if(prop[p]=3D=3D"hide"&&hidden||prop[p]=3D=3D"show"&&!hidden){retur=
+n =
+opt.complete.call(this)}if((p=3D=3D"height"||p=3D=3D"width")&&this.style)=
+{opt.display=3DjQuery.css(this,"display");opt.overflow=3Dthis.style.overf=
+low}}if(opt.overflow!=3Dnull){this.style.overflow=3D"hidden"}opt.curAnim=3D=
+jQuery.extend({},prop);jQuery.each(prop,function(name,val){var e=3Dnew =
+jQuery.fx(self,opt,name);if(/toggle|show|hide/.test(val)){e[val=3D=3D"tog=
+gle"?hidden?"show":"hide":val](prop)}else{var =
+parts=3Dval.toString().match(/^([+-]=3D)?([\d+-.]+)(.*)$/),start=3De.cur(=
+true)||0;if(parts){var =
+end=3DparseFloat(parts[2]),unit=3Dparts[3]||"px";if(unit!=3D"px"){self.st=
+yle[name]=3D(end||1)+unit;start=3D((end||1)/e.cur(true))*start;self.style=
+[name]=3Dstart+unit}if(parts[1]){end=3D((parts[1]=3D=3D"-=3D"?-1:1)*end)+=
+start}e.custom(start,end,unit)}else{e.custom(start,val,"")}}});return =
+true})},stop:function(clearQueue,gotoEnd){var =
+timers=3DjQuery.timers;if(clearQueue){this.queue([])}this.each(function()=
+{for(var =
+i=3Dtimers.length-1;i>=3D0;i--){if(timers[i].elem=3D=3Dthis){if(gotoEnd){=
+timers[i](true)}timers.splice(i,1)}}});if(!gotoEnd){this.dequeue()}return=
+ =
+this}});jQuery.each({slideDown:genFx("show",1),slideUp:genFx("hide",1),sl=
+ideToggle:genFx("toggle",1),fadeIn:{opacity:"show"},fadeOut:{opacity:"hid=
+e"}},function(name,props){jQuery.fn[name]=3Dfunction(speed,callback){retu=
+rn =
+this.animate(props,speed,callback)}});jQuery.extend({speed:function(speed=
+,easing,fn){var opt=3Dtypeof =
+speed=3D=3D=3D"object"?speed:{complete:fn||!fn&&easing||jQuery.isFunction=
+(speed)&&speed,duration:speed,easing:fn&&easing||easing&&!jQuery.isFuncti=
+on(easing)&&easing};opt.duration=3DjQuery.fx.off?0:typeof =
+opt.duration=3D=3D=3D"number"?opt.duration:jQuery.fx.speeds[opt.duration]=
+||jQuery.fx.speeds._default;opt.old=3Dopt.complete;opt.complete=3Dfunctio=
+n(){if(opt.queue!=3D=3Dfalse){jQuery(this).dequeue()}if(jQuery.isFunction=
+(opt.old)){opt.old.call(this)}};return =
+opt},easing:{linear:function(p,n,firstNum,diff){return =
+firstNum+diff*p},swing:function(p,n,firstNum,diff){return((-Math.cos(p*Ma=
+th.PI)/2)+0.5)*diff+firstNum}},timers:[],fx:function(elem,options,prop){t=
+his.options=3Doptions;this.elem=3Delem;this.prop=3Dprop;if(!options.orig)=
+{options.orig=3D{}}}});jQuery.fx.prototype=3D{update:function(){if(this.o=
+ptions.step){this.options.step.call(this.elem,this.now,this)}(jQuery.fx.s=
+tep[this.prop]||jQuery.fx.step._default)(this);if((this.prop=3D=3D"height=
+"||this.prop=3D=3D"width")&&this.elem.style){this.elem.style.display=3D"b=
+lock"}},cur:function(force){if(this.elem[this.prop]!=3Dnull&&(!this.elem.=
+style||this.elem.style[this.prop]=3D=3Dnull)){return =
+this.elem[this.prop]}var =
+r=3DparseFloat(jQuery.css(this.elem,this.prop,force));return =
+r&&r>-10000?r:parseFloat(jQuery.curCSS(this.elem,this.prop))||0},custom:f=
+unction(from,to,unit){this.startTime=3Dnow();this.start=3Dfrom;this.end=3D=
+to;this.unit=3Dunit||this.unit||"px";this.now=3Dthis.start;this.pos=3Dthi=
+s.state=3D0;var self=3Dthis;function t(gotoEnd){return =
+self.step(gotoEnd)}t.elem=3Dthis.elem;if(t()&&jQuery.timers.push(t)&&!tim=
+erId){timerId=3DsetInterval(function(){var =
+timers=3DjQuery.timers;for(var =
+i=3D0;i<timers.length;i++){if(!timers[i]()){timers.splice(i--,1)}}if(!tim=
+ers.length){clearInterval(timerId);timerId=3Dundefined}},13)}},show:funct=
+ion(){this.options.orig[this.prop]=3DjQuery.attr(this.elem.style,this.pro=
+p);this.options.show=3Dtrue;this.custom(this.prop=3D=3D"width"||this.prop=
+=3D=3D"height"?1:0,this.cur());jQuery(this.elem).show()},hide:function(){=
+this.options.orig[this.prop]=3DjQuery.attr(this.elem.style,this.prop);thi=
+s.options.hide=3Dtrue;this.custom(this.cur(),0)},step:function(gotoEnd){v=
+ar =
+t=3Dnow();if(gotoEnd||t>=3Dthis.options.duration+this.startTime){this.now=
+=3Dthis.end;this.pos=3Dthis.state=3D1;this.update();this.options.curAnim[=
+this.prop]=3Dtrue;var done=3Dtrue;for(var i in =
+this.options.curAnim){if(this.options.curAnim[i]!=3D=3Dtrue){done=3Dfalse=
+}}if(done){if(this.options.display!=3Dnull){this.elem.style.overflow=3Dth=
+is.options.overflow;this.elem.style.display=3Dthis.options.display;if(jQu=
+ery.css(this.elem,"display")=3D=3D"none"){this.elem.style.display=3D"bloc=
+k"}}if(this.options.hide){jQuery(this.elem).hide()}if(this.options.hide||=
+this.options.show){for(var p in =
+this.options.curAnim){jQuery.attr(this.elem.style,p,this.options.orig[p])=
+}}this.options.complete.call(this.elem)}return false}else{var =
+n=3Dt-this.startTime;this.state=3Dn/this.options.duration;this.pos=3DjQue=
+ry.easing[this.options.easing||(jQuery.easing.swing?"swing":"linear")](th=
+is.state,n,0,1,this.options.duration);this.now=3Dthis.start+((this.end-th=
+is.start)*this.pos);this.update()}return =
+true}};jQuery.extend(jQuery.fx,{speeds:{slow:600,fast:200,_default:400},s=
+tep:{opacity:function(fx){jQuery.attr(fx.elem.style,"opacity",fx.now)},_d=
+efault:function(fx){if(fx.elem.style&&fx.elem.style[fx.prop]!=3Dnull){fx.=
+elem.style[fx.prop]=3Dfx.now+fx.unit}else{fx.elem[fx.prop]=3Dfx.now}}}});=
+if(document.documentElement.getBoundingClientRect){jQuery.fn.offset=3Dfun=
+ction(){if(!this[0]){return{top:0,left:0}}if(this[0]=3D=3D=3Dthis[0].owne=
+rDocument.body){return jQuery.offset.bodyOffset(this[0])}var =
+box=3Dthis[0].getBoundingClientRect(),doc=3Dthis[0].ownerDocument,body=3D=
+doc.body,docElem=3Ddoc.documentElement,clientTop=3DdocElem.clientTop||bod=
+y.clientTop||0,clientLeft=3DdocElem.clientLeft||body.clientLeft||0,top=3D=
+box.top+(self.pageYOffset||jQuery.boxModel&&docElem.scrollTop||body.scrol=
+lTop)-clientTop,left=3Dbox.left+(self.pageXOffset||jQuery.boxModel&&docEl=
+em.scrollLeft||body.scrollLeft)-clientLeft;return{top:top,left:left}}}els=
+e{jQuery.fn.offset=3Dfunction(){if(!this[0]){return{top:0,left:0}}if(this=
+[0]=3D=3D=3Dthis[0].ownerDocument.body){return =
+jQuery.offset.bodyOffset(this[0])}jQuery.offset.initialized||jQuery.offse=
+t.initialize();var =
+elem=3Dthis[0],offsetParent=3Delem.offsetParent,prevOffsetParent=3Delem,d=
+oc=3Delem.ownerDocument,computedStyle,docElem=3Ddoc.documentElement,body=3D=
+doc.body,defaultView=3Ddoc.defaultView,prevComputedStyle=3DdefaultView.ge=
+tComputedStyle(elem,null),top=3Delem.offsetTop,left=3Delem.offsetLeft;whi=
+le((elem=3Delem.parentNode)&&elem!=3D=3Dbody&&elem!=3D=3DdocElem){compute=
+dStyle=3DdefaultView.getComputedStyle(elem,null);top-=3Delem.scrollTop,le=
+ft-=3Delem.scrollLeft;if(elem=3D=3D=3DoffsetParent){top+=3Delem.offsetTop=
+,left+=3Delem.offsetLeft;if(jQuery.offset.doesNotAddBorder&&!(jQuery.offs=
+et.doesAddBorderForTableAndCells&&/^t(able|d|h)$/i.test(elem.tagName))){t=
+op+=3DparseInt(computedStyle.borderTopWidth,10)||0,left+=3DparseInt(compu=
+tedStyle.borderLeftWidth,10)||0}prevOffsetParent=3DoffsetParent,offsetPar=
+ent=3Delem.offsetParent}if(jQuery.offset.subtractsBorderForOverflowNotVis=
+ible&&computedStyle.overflow!=3D=3D"visible"){top+=3DparseInt(computedSty=
+le.borderTopWidth,10)||0,left+=3DparseInt(computedStyle.borderLeftWidth,1=
+0)||0}prevComputedStyle=3DcomputedStyle}if(prevComputedStyle.position=3D=3D=
+=3D"relative"||prevComputedStyle.position=3D=3D=3D"static"){top+=3Dbody.o=
+ffsetTop,left+=3Dbody.offsetLeft}if(prevComputedStyle.position=3D=3D=3D"f=
+ixed"){top+=3DMath.max(docElem.scrollTop,body.scrollTop),left+=3DMath.max=
+(docElem.scrollLeft,body.scrollLeft)}return{top:top,left:left}}}jQuery.of=
+fset=3D{initialize:function(){if(this.initialized){return }var =
+body=3Ddocument.body,container=3Ddocument.createElement("div"),innerDiv,c=
+heckDiv,table,td,rules,prop,bodyMarginTop=3Dbody.style.marginTop,html=3D'=
+<div style=3D"position:absolute;top:0;left:0;margin:0;border:5px solid =
+#000;padding:0;width:1px;height:1px;"><div></div></div><table =
+style=3D"position:absolute;top:0;left:0;margin:0;border:5px solid =
+#000;padding:0;width:1px;height:1px;" cellpadding=3D"0" =
+cellspacing=3D"0"><tr><td></td></tr></table>';rules=3D{position:"absolute=
+",top:0,left:0,margin:0,border:0,width:"1px",height:"1px",visibility:"hid=
+den"};for(prop in =
+rules){container.style[prop]=3Drules[prop]}container.innerHTML=3Dhtml;bod=
+y.insertBefore(container,body.firstChild);innerDiv=3Dcontainer.firstChild=
+,checkDiv=3DinnerDiv.firstChild,td=3DinnerDiv.nextSibling.firstChild.firs=
+tChild;this.doesNotAddBorder=3D(checkDiv.offsetTop!=3D=3D5);this.doesAddB=
+orderForTableAndCells=3D(td.offsetTop=3D=3D=3D5);innerDiv.style.overflow=3D=
+"hidden",innerDiv.style.position=3D"relative";this.subtractsBorderForOver=
+flowNotVisible=3D(checkDiv.offsetTop=3D=3D=3D-5);body.style.marginTop=3D"=
+1px";this.doesNotIncludeMarginInBodyOffset=3D(body.offsetTop=3D=3D=3D0);b=
+ody.style.marginTop=3DbodyMarginTop;body.removeChild(container);this.init=
+ialized=3Dtrue},bodyOffset:function(body){jQuery.offset.initialized||jQue=
+ry.offset.initialize();var =
+top=3Dbody.offsetTop,left=3Dbody.offsetLeft;if(jQuery.offset.doesNotInclu=
+deMarginInBodyOffset){top+=3DparseInt(jQuery.curCSS(body,"marginTop",true=
+),10)||0,left+=3DparseInt(jQuery.curCSS(body,"marginLeft",true),10)||0}re=
+turn{top:top,left:left}}};jQuery.fn.extend({position:function(){var =
+left=3D0,top=3D0,results;if(this[0]){var =
+offsetParent=3Dthis.offsetParent(),offset=3Dthis.offset(),parentOffset=3D=
+/^body|html$/i.test(offsetParent[0].tagName)?{top:0,left:0}:offsetParent.=
+offset();offset.top-=3Dnum(this,"marginTop");offset.left-=3Dnum(this,"mar=
+ginLeft");parentOffset.top+=3Dnum(offsetParent,"borderTopWidth");parentOf=
+fset.left+=3Dnum(offsetParent,"borderLeftWidth");results=3D{top:offset.to=
+p-parentOffset.top,left:offset.left-parentOffset.left}}return =
+results},offsetParent:function(){var =
+offsetParent=3Dthis[0].offsetParent||document.body;while(offsetParent&&(!=
+/^body|html$/i.test(offsetParent.tagName)&&jQuery.css(offsetParent,"posit=
+ion")=3D=3D"static")){offsetParent=3DoffsetParent.offsetParent}return =
+jQuery(offsetParent)}});jQuery.each(["Left","Top"],function(i,name){var =
+method=3D"scroll"+name;jQuery.fn[method]=3Dfunction(val){if(!this[0]){ret=
+urn null}return =
+val!=3D=3Dundefined?this.each(function(){this=3D=3Dwindow||this=3D=3Ddocu=
+ment?window.scrollTo(!i?val:jQuery(window).scrollLeft(),i?val:jQuery(wind=
+ow).scrollTop()):this[method]=3Dval}):this[0]=3D=3Dwindow||this[0]=3D=3Dd=
+ocument?self[i?"pageYOffset":"pageXOffset"]||jQuery.boxModel&&document.do=
+cumentElement[method]||document.body[method]:this[0][method]}});jQuery.ea=
+ch(["Height","Width"],function(i,name){var =
+tl=3Di?"Left":"Top",br=3Di?"Right":"Bottom",lower=3Dname.toLowerCase();jQ=
+uery.fn["inner"+name]=3Dfunction(){return =
+this[0]?jQuery.css(this[0],lower,false,"padding"):null};jQuery.fn["outer"=
++name]=3Dfunction(margin){return =
+this[0]?jQuery.css(this[0],lower,false,margin?"margin":"border"):null};va=
+r type=3Dname.toLowerCase();jQuery.fn[type]=3Dfunction(size){return =
+this[0]=3D=3Dwindow?document.compatMode=3D=3D"CSS1Compat"&&document.docum=
+entElement["client"+name]||document.body["client"+name]:this[0]=3D=3Ddocu=
+ment?Math.max(document.documentElement["client"+name],document.body["scro=
+ll"+name],document.documentElement["scroll"+name],document.body["offset"+=
+name],document.documentElement["offset"+name]):size=3D=3D=3Dundefined?(th=
+is.length?jQuery.css(this[0],type):null):this.css(type,typeof =
+size=3D=3D=3D"string"?size:size+"px")}})})();
+------=_NextPart_000_0000_01CC2227.2BF72D70--
